@@ -10,7 +10,16 @@
           <e p="BillboardSprite.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
           <e p="EntityController.cs" t="Include" />
+          <e p="MeleeAI.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+        </e>
+        <e p="Levels" t="Include">
+          <e p="GameController.cs" t="Include" />
+          <e p="LevelController.cs" t="Include" />
+          <e p="LevelScripts" t="Include">
+            <e p="Wave.cs" t="Include" />
+            <e p="WaveData.cs" t="Include" />
+          </e>
         </e>
         <e p="Opening" t="Include">
           <e p="OpeningController.cs" t="Include" />
