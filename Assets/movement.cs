@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    public Rigidbody rg;
+    public CharacterController characterController;
     float vertical;
     float horizontal;
 
@@ -25,6 +25,6 @@ public class movement : MonoBehaviour
     {
         Vector3 finalMovement = new Vector3(horizontal * speed, 0, vertical * speed);
         finalMovement = Vector3.ClampMagnitude(finalMovement, 1f);
-        rg.velocity = finalMovement * speed;
+        characterController.Move( finalMovement * speed);
     }
 }
