@@ -8,6 +8,9 @@ namespace Character
     {
         public event Action<int, int> OnHealthChangedEvent;
         public event Action OnCollidedWithSomething;
+        public event Action OnDeathEvent;
+        public event Action OnNextLevelPortalEntered;
+        public event Action OnNextLevelPortalExited;
         
         private const float BulletSpawnDistance = .5f;
         [SerializeField] private CharacterController characterController;
@@ -37,9 +40,11 @@ namespace Character
         private int _currentLife = 0;
         private Vector3 _lastMoveDirection;
         private Vector3 _inputMovement;
+        private int _portalLayer;
 
         private void Start()
         {
+            _portalLayer = LayerMask.NameToLayer("Portal");
             _currentLife = life;
         }
 
@@ -144,12 +149,39 @@ namespace Character
             if (_isShieldActive) return;
             _currentLife--;
             OnHealthChanged(life, _currentLife);
-            if (_currentLife <= 0) Destroy(gameObject);
+            if (_currentLife <= 0) Death();
+        }
+
+        private void Death()
+        {
+            OnDeath();
+            Destroy(gameObject);
         }
 
         protected virtual void OnHealthChanged(int max, int current)
         {
             OnHealthChangedEvent?.Invoke(max, current);
+        }
+
+        protected virtual void OnDeath()
+        {
+            OnDeathEvent?.Invoke();
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.layer.Equals(_portalLayer))
+            {
+                OnNextLevelPortalEntered?.Invoke();
+            }
+        }
+        
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.layer.Equals(_portalLayer))
+            {
+                OnNextLevelPortalExited?.Invoke();
+            }
         }
     }
 }
