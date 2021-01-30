@@ -32,6 +32,8 @@ namespace Character
 
         [Header("Spawning")] [SerializeField] private float spawnTime = 0;
 
+        private float _currentDashDistance;
+        private float _currentDashTime;
         private float _bulletTimer;
         private bool _isDashing = false;
         private float _dashTimer = 0;
@@ -72,9 +74,24 @@ namespace Character
 
         public void Dash()
         {
+            if (_isDashing) return;
+            InitializeDashWithParams(dashTime, dashDistance);
+        }
+
+        public void Stun(Vector3 fromEnemyPosition)
+        {
+            _lastMoveDirection = (fromEnemyPosition - transform.position).normalized;
+            _lastMoveDirection.y = transform.position.y;
+            InitializeDashWithParams(.25f, -2);
+        }
+
+        private void InitializeDashWithParams(float time, float dist)
+        {
             _isDashing = true;
             _dashTimer = 0;
             _lastDashDistance = 0;
+            _currentDashTime = time;
+            _currentDashDistance = dist;
         }
         
         public void ToggleShield(bool isActive)
@@ -106,15 +123,15 @@ namespace Character
 
         private void HandleDash()
         {
-            if (_dashTimer >= dashTime)
+            if (_dashTimer >= _currentDashTime)
             {
                 _isDashing = false;
                 return;
             }
             
-            var currentDashDistance = dashCurve.Evaluate(_dashTimer/dashTime);
+            var currentDashDistance = dashCurve.Evaluate(_dashTimer/_currentDashTime);
             var dashDelta = currentDashDistance - _lastDashDistance;
-            var positionDelta = dashDelta * dashDistance * _lastMoveDirection;
+            var positionDelta = dashDelta * _currentDashDistance * _lastMoveDirection;
             
             CollisionFlags flags = characterController.Move(positionDelta);
 

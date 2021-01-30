@@ -35,6 +35,11 @@ namespace Character
             {
                 ToggleShield(false);
             }
+
+            /*if (Input.GetKeyDown(KeyCode.K))
+            {
+                targetEntity.Stun(Vector3.zero);
+            }*/
         }
 
         private void Dash()
