@@ -23,6 +23,8 @@ namespace Character
         [SerializeField] private float bulletsPerSecond = 2;
         [SerializeField] private float bulletSpeed = 10;
 
+        [Header("Spawning")] [SerializeField] private float spawnTime = 0;
+
         private float _bulletTimer;
         private bool _isDashing = false;
         private float _dashTimer = 0;

@@ -148,7 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterController: {fileID: 3434961802536407842}
   life: 2
-  movementSpeed: 5
+  movementSpeed: 1
   dashDistance: 3
   dashTime: 0.5
   dashCurve:
@@ -160,6 +160,7 @@ MonoBehaviour:
   projectile: {fileID: 8082670911155300143, guid: fbf27a871200a63428af473aa9ce850c, type: 3}
   bulletsPerSecond: 2
   bulletSpeed: 10
+  spawnTime: 0
 --- !u!114 &-2517059488165002327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,4 +174,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entityTarget: {fileID: 3434961802536407843}
-  player: {fileID: 0}
