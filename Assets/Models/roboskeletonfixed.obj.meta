@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 42dccf3a10c722d4d844500e5d0350b0
+guid: 873fbe748478ab04c8e30564f75b9af9
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboskeletonMat
-    second: {fileID: 2100000, guid: 5d55b86e075f2c247ab3b5d7c9a878c8, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
