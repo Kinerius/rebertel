@@ -8,7 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Character" t="Include">
           <e p="BillboardSprite.cs" t="Include" />
+          <e p="Bullet.cs" t="Include" />
           <e p="EntityController.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
         </e>
         <e p="Opening" t="Include">
           <e p="OpeningController.cs" t="Include" />
