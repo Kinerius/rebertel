@@ -21,7 +21,7 @@ namespace Character
         }
         private void MoveToPlayer()
         {
-            entityTarget.SetMovementDirection(player.transform.position - gameObject.transform.position);
+            entityTarget.SetMovementDirection((player.transform.position - gameObject.transform.position).normalized);
         }
     }
 }
