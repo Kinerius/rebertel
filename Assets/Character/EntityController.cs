@@ -1,10 +1,14 @@
 
+using System;
 using UnityEngine;
 
 namespace Character
 {
     public class EntityController : MonoBehaviour
     {
+        public event Action<int, int> OnHealthChangedEvent;
+        public event Action<CollisionFlags> OnCollidedWithSomething;
+        
         private const float BulletSpawnDistance = .5f;
         [SerializeField] private CharacterController characterController;
 
@@ -30,10 +34,15 @@ namespace Character
         private float _dashTimer = 0;
         private float _lastDashDistance;
         private bool _isShieldActive = false;
-
+        private int _currentLife = 0;
         private Vector3 _lastMoveDirection;
         private Vector3 _inputMovement;
-        
+
+        private void Start()
+        {
+            _currentLife = life;
+        }
+
         public void SetMovementDirection(Vector3 direction)
         {
             _inputMovement = direction;
@@ -125,14 +134,22 @@ namespace Character
             
             var finalSpeed = Time.deltaTime * movementSpeed * _inputMovement;
             _lastMoveDirection = _inputMovement;
-            characterController.Move(finalSpeed);
+            var collisions = characterController.Move(finalSpeed);
+            if (collisions != CollisionFlags.None)
+                OnCollidedWithSomething?.Invoke(collisions);
         }
 
         public void ReceiveDamage()
         {
             if (_isShieldActive) return;
-            life--;
-            if (life <= 0) Destroy(gameObject);
+            _currentLife--;
+            OnHealthChanged(life, _currentLife);
+            if (_currentLife <= 0) Destroy(gameObject);
+        }
+
+        protected virtual void OnHealthChanged(int max, int current)
+        {
+            OnHealthChangedEvent?.Invoke(max, current);
         }
     }
 }
