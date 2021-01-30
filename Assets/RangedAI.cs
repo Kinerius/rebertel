@@ -34,7 +34,7 @@ namespace Character
             var randomPoint = new Vector3(Random.Range(-2,2),0, Random.Range(-2,2));
             Debug.Log(randomPoint);
             entityTarget.SetMovementDirection(randomPoint);
-            _movingTimer = 1 / 1;
+            _movingTimer = 5;
         }
         private void UpdateCooldowns()
         {
