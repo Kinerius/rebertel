@@ -15,6 +15,7 @@ namespace Character
         private void Start()
         {
             player = GameObject.Find("Player");
+            entityTarget.OnCollidedWithSomething += MoveAround;
         }
         private void Update()
         {
