@@ -26,11 +26,25 @@ namespace Character
             {
                 Dash();
             }
+
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                ToggleShield(true);
+            }
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                ToggleShield(false);
+            }
         }
 
         private void Dash()
         {
             targetEntity.Dash();
+        }
+
+        private void ToggleShield(bool isActive)
+        {
+            targetEntity.ToggleShield(isActive);
         }
 
         private void ShootAtMousePosition()

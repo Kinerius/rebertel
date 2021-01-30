@@ -27,6 +27,7 @@ namespace Character
         private bool _isDashing = false;
         private float _dashTimer = 0;
         private float _lastDashDistance;
+        private bool _isShieldActive = false;
 
         private Vector3 _lastMoveDirection;
         private Vector3 _inputMovement;
@@ -37,6 +38,7 @@ namespace Character
         }
         public void ShootAt(Vector3 position)
         {
+            if (_isShieldActive) return;
             if (_bulletTimer > 0) return;
             
             var entityPosition = transform.position;
@@ -59,6 +61,14 @@ namespace Character
             _lastDashDistance = 0;
         }
         
+        public void ToggleShield(bool isActive)
+        {
+            if (isActive)
+                EnableShield();
+            else
+                DisableShield();
+        }
+        
         void Update()
         {
             if (!_isDashing) 
@@ -67,6 +77,15 @@ namespace Character
                 HandleDash();
             
             UpdateCooldowns();
+        }
+
+        private void EnableShield()
+        {
+            _isShieldActive = true;
+        }
+        private void DisableShield()
+        {
+            _isShieldActive = false;
         }
 
         private void HandleDash()
@@ -109,6 +128,7 @@ namespace Character
 
         public void ReceiveDamage()
         {
+            if (_isShieldActive) return;
             life--;
             if (life <= 0) Destroy(gameObject);
         }
