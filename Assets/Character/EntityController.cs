@@ -42,11 +42,11 @@ namespace Character
             if (_bulletTimer > 0) return;
             
             var entityPosition = transform.position;
-            var hipHeight = entityPosition.y;
+            var hipHeight = entityPosition.y + 1;
             var targetPosition = position;
             targetPosition.y = hipHeight;
             var direction = (targetPosition - entityPosition).normalized;
-            var spawnPosition = entityPosition + direction * BulletSpawnDistance;
+            var spawnPosition = entityPosition + Vector3.up + direction * BulletSpawnDistance;
 
             var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
             var bullet = bulletIsntance.GetComponent<Bullet>();
