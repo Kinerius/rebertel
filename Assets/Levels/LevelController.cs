@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Levels.LevelScripts;
+using UniRx;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -56,19 +57,23 @@ namespace Levels
         {
             for (int i = 0; i < waveData.count; i++)
             {
-                SpawnEnemy(waveData.prefab);
+                Observable.Timer(TimeSpan.FromSeconds(i * Random.Range(waveData.timeForEachSpawn, waveData.timeForEachSpawn+0.5f )))
+                    .Do(_ => SpawnEnemy(waveData.prefab))
+                    .Subscribe();
             }
         }
 
         private void SpawnEnemy(GameObject enemy)
         {
             var avalableSpawners = enemySpawners.Where(e => Vector3.Distance(e.transform.position, _player.transform.position) > 5).ToList();
-            var spawner = avalableSpawners[UnityEngine.Random.Range(0, avalableSpawners.Count)];
+            var spawner = avalableSpawners[Random.Range(0, avalableSpawners.Count)];
             var spawnerPosition = spawner.transform.position;
-            var randomPosition = spawnerPosition + Random.insideUnitSphere * 3;
-            randomPosition.y = spawnerPosition.y;
-            
-            Instantiate(enemy, randomPosition ,Quaternion.identity);
+
+            var spawnerBounds = spawner.GetComponent<BoxCollider>().bounds;
+            var randX = spawnerBounds.extents.x * Random.Range(-1, 1);
+            var randZ = spawnerBounds.extents.z * Random.Range(-1, 1);
+           
+            Instantiate(enemy, new Vector3(spawnerPosition.x + randX, spawnerPosition.y, spawnerPosition.z + randZ) ,Quaternion.identity);
         }
     }
 }

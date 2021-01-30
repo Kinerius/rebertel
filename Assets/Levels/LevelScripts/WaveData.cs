@@ -9,5 +9,6 @@ namespace Levels.LevelScripts
         public float when;
         public int count;
         public GameObject prefab;
+        public float timeForEachSpawn;
     }
 }
