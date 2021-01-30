@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3434961802536407844}
   - component: {fileID: 3434961802536407842}
   - component: {fileID: 3434961802536407843}
+  - component: {fileID: -2517059488165002327}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -159,3 +160,15 @@ MonoBehaviour:
   projectile: {fileID: 8082670911155300143, guid: fbf27a871200a63428af473aa9ce850c, type: 3}
   bulletsPerSecond: 2
   bulletSpeed: 10
+--- !u!114 &-2517059488165002327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3434961802536407845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c452c337baf0f4aac884abb9f920ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
