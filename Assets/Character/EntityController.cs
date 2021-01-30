@@ -174,6 +174,10 @@ namespace Character
             {
                 OnNextLevelPortalEntered?.Invoke();
             }
+            if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
+            {
+                other.gameObject.GetComponent<EntityController>().ReceiveDamage();
+            }
         }
         
         private void OnTriggerExit(Collider other)
