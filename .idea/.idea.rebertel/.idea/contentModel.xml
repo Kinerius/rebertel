@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Kinerius\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kinerius\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_rebertel.351976501.00" t="ExcludeRecursive" />
+    <e p="E:\Projects\rebertel" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Character" t="Include">
+          <e p="BillboardSprite.cs" t="Include" />
+          <e p="EntityController.cs" t="Include" />
+        </e>
+        <e p="Opening" t="Include">
+          <e p="OpeningController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="rebertel.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
