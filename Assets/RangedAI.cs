@@ -15,7 +15,7 @@ namespace Character
         private void Start()
         {
             player = GameObject.Find("Player");
-            entityTarget.OnCollidedWithSomething += MoveAround;
+            entityTarget.OnCollidedWithSomething += RefreshMoveAround;
         }
         private void Update()
         {
@@ -32,10 +32,18 @@ namespace Character
         private void MoveAround()
         {
             if (_movingTimer > 0) return;
-            var randomPoint = new Vector3(Random.Range(-2,2),0, Random.Range(-2,2));
-            Debug.Log(randomPoint);
-            entityTarget.SetMovementDirection(randomPoint);
-            _movingTimer = 5;
+            int x = Random.Range(-90, 90);
+            int z = Random.Range(-90, 90);
+            if (x == 0 && z == 0)
+                x = 1;
+            var randomPoint = new Vector3(x, 0, z);
+            Debug.Log(randomPoint.normalized);
+            entityTarget.SetMovementDirection(randomPoint.normalized);
+            _movingTimer = 2;
+        }
+        private void RefreshMoveAround()
+        {
+            _movingTimer = 0;
         }
         private void UpdateCooldowns()
         {

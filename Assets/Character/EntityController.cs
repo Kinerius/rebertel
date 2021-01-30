@@ -8,6 +8,9 @@ namespace Character
     {
         public event Action<int, int> OnHealthChangedEvent;
         public event Action OnCollidedWithSomething;
+        public event Action OnDeathEvent;
+        public event Action OnNextLevelPortalEntered;
+        public event Action OnNextLevelPortalExited;
         
         private const float BulletSpawnDistance = .5f;
         [SerializeField] private CharacterController characterController;
@@ -29,6 +32,8 @@ namespace Character
 
         [Header("Spawning")] [SerializeField] private float spawnTime = 0;
 
+        private float _currentDashDistance;
+        private float _currentDashTime;
         private float _bulletTimer;
         private bool _isDashing = false;
         private float _dashTimer = 0;
@@ -37,9 +42,11 @@ namespace Character
         private int _currentLife = 0;
         private Vector3 _lastMoveDirection;
         private Vector3 _inputMovement;
+        private int _portalLayer;
 
         private void Start()
         {
+            _portalLayer = LayerMask.NameToLayer("Portal");
             _currentLife = life;
         }
 
@@ -67,9 +74,24 @@ namespace Character
 
         public void Dash()
         {
+            if (_isDashing) return;
+            InitializeDashWithParams(dashTime, dashDistance);
+        }
+
+        public void Stun(Vector3 fromEnemyPosition)
+        {
+            _lastMoveDirection = (fromEnemyPosition - transform.position).normalized;
+            _lastMoveDirection.y = transform.position.y;
+            InitializeDashWithParams(.25f, -2);
+        }
+
+        private void InitializeDashWithParams(float time, float dist)
+        {
             _isDashing = true;
             _dashTimer = 0;
             _lastDashDistance = 0;
+            _currentDashTime = time;
+            _currentDashDistance = dist;
         }
         
         public void ToggleShield(bool isActive)
@@ -101,15 +123,15 @@ namespace Character
 
         private void HandleDash()
         {
-            if (_dashTimer >= dashTime)
+            if (_dashTimer >= _currentDashTime)
             {
                 _isDashing = false;
                 return;
             }
             
-            var currentDashDistance = dashCurve.Evaluate(_dashTimer/dashTime);
+            var currentDashDistance = dashCurve.Evaluate(_dashTimer/_currentDashTime);
             var dashDelta = currentDashDistance - _lastDashDistance;
-            var positionDelta = dashDelta * dashDistance * _lastMoveDirection;
+            var positionDelta = dashDelta * _currentDashDistance * _lastMoveDirection;
             
             CollisionFlags flags = characterController.Move(positionDelta);
 
@@ -144,12 +166,39 @@ namespace Character
             if (_isShieldActive) return;
             _currentLife--;
             OnHealthChanged(life, _currentLife);
-            if (_currentLife <= 0) Destroy(gameObject);
+            if (_currentLife <= 0) Death();
+        }
+
+        private void Death()
+        {
+            OnDeath();
+            Destroy(gameObject);
         }
 
         protected virtual void OnHealthChanged(int max, int current)
         {
             OnHealthChangedEvent?.Invoke(max, current);
+        }
+
+        protected virtual void OnDeath()
+        {
+            OnDeathEvent?.Invoke();
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.layer.Equals(_portalLayer))
+            {
+                OnNextLevelPortalEntered?.Invoke();
+            }
+        }
+        
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.gameObject.layer.Equals(_portalLayer))
+            {
+                OnNextLevelPortalExited?.Invoke();
+            }
         }
     }
 }
