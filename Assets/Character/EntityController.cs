@@ -7,7 +7,7 @@ namespace Character
     public class EntityController : MonoBehaviour
     {
         public event Action<int, int> OnHealthChangedEvent;
-        public event Action<CollisionFlags> OnCollidedWithSomething;
+        public event Action OnCollidedWithSomething;
         
         private const float BulletSpawnDistance = .5f;
         [SerializeField] private CharacterController characterController;
@@ -136,7 +136,7 @@ namespace Character
             _lastMoveDirection = _inputMovement;
             var collisions = characterController.Move(finalSpeed);
             if (collisions != CollisionFlags.None)
-                OnCollidedWithSomething?.Invoke(collisions);
+                OnCollidedWithSomething?.Invoke();
         }
 
         public void ReceiveDamage()
