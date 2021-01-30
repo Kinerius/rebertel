@@ -212,9 +212,11 @@ MonoBehaviour:
   - when: 2
     count: 5
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+    timeForEachSpawn: 0.5
   - when: 5
     count: 10
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+    timeForEachSpawn: 0.5
 --- !u!1001 &2134265307111041
 PrefabInstance:
   m_ObjectHideFlags: 0
