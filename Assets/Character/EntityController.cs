@@ -37,7 +37,10 @@ namespace Character
         [Header("Spawning")] 
         [SerializeField] private float spawnTime = 0;
 
-        [Header("Upgrades")]
+        [Header("Upgrades")] 
+        public bool isBlasterUpgraded = false;
+        public bool isShieldUpgraded = false;
+        public bool isDashUpgraded = false;
         
         private float _currentDashDistance;
         private float _currentDashTime;
@@ -112,8 +115,8 @@ namespace Character
             bullet.SetSpeed(bulletSpeed);
             
             SoundManager.Instance.Play(SoundManager.Instance.Disparo);
-            
-            _bulletTimer = 1 / bulletsPerSecond;
+            var bps = isBlasterUpgraded ? bulletsPerSecond * 2 : bulletsPerSecond;
+            _bulletTimer = 1 / bps;
         }
 
         private void SetShootingAnimationState(Vector3 direction)
@@ -128,6 +131,7 @@ namespace Character
 
         public void Dash()
         {
+            if (!isDashUpgraded) return;
             if (_hasSpawnedRecently) return;
             if (_isDashing) return;
             anim.SetTrigger(DashHash);
@@ -153,6 +157,7 @@ namespace Character
 
         public void ToggleShield(bool isActive)
         {
+            if (!isShieldUpgraded) return;
             if (isActive)
                 EnableShield();
             else
