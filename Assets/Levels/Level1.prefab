@@ -1006,6 +1006,7 @@ MonoBehaviour:
   - {fileID: -2680712310704498373, guid: fa28dbd94567a314eb7804803c8b7e63, type: 3}
   - {fileID: 650149893021809985, guid: fa28dbd94567a314eb7804803c8b7e63, type: 3}
   item: {fileID: 0}
+  isFinalLevel: 0
 --- !u!1 &5586737010901145595
 GameObject:
   m_ObjectHideFlags: 0

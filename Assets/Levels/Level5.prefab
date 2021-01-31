@@ -3744,11 +3744,11 @@ MonoBehaviour:
   - when: 2
     count: 30
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
-    timeForEachSpawn: 7
+    timeForEachSpawn: 6
   - when: 3
     count: 15
     prefab: {fileID: 2257543147842463904, guid: 26fc1ab5831103b4cbc066b5647a1adb, type: 3}
-    timeForEachSpawn: 10
+    timeForEachSpawn: 9
   nextLevelPortal: {fileID: 372760298798827637}
   sentences:
   - {fileID: -4406063426868414555, guid: 6735c0bb6d04c8f4db0f53c948416300, type: 3}

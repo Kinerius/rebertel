@@ -2137,16 +2137,17 @@ MonoBehaviour:
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
     timeForEachSpawn: 1
   - when: 5
-    count: 5
-    prefab: {fileID: 2257543147842463904, guid: 26fc1ab5831103b4cbc066b5647a1adb, type: 3}
-    timeForEachSpawn: 2
-  - when: 7
     count: 3
+    prefab: {fileID: 2257543147842463904, guid: 26fc1ab5831103b4cbc066b5647a1adb, type: 3}
+    timeForEachSpawn: 2.5
+  - when: 10
+    count: 1
     prefab: {fileID: 2257543147842463904, guid: bf445b70498d3ea499db372ee266a5ea, type: 3}
-    timeForEachSpawn: 2
+    timeForEachSpawn: 0
   nextLevelPortal: {fileID: 372760298798827637}
   sentences: []
   item: {fileID: 6234796438213865203}
+  isFinalLevel: 0
 --- !u!1 &3896359288478571791
 GameObject:
   m_ObjectHideFlags: 0
