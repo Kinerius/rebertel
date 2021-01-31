@@ -14,6 +14,7 @@ namespace Character
         
         private const float BulletSpawnDistance = .5f;
         [SerializeField] private CharacterController characterController;
+        [SerializeField] private Animator anim;
 
         [Header("Stats")]
         [SerializeField] private int life = 3;
@@ -43,6 +44,12 @@ namespace Character
         private Vector3 _lastMoveDirection;
         private Vector3 _inputMovement;
         private int _portalLayer;
+        
+        private static readonly int DirectionChanged = Animator.StringToHash("DirectionChanged");
+        private static readonly int MoveDirection = Animator.StringToHash("MoveDirection");
+        private static readonly int IsWalking = Animator.StringToHash("IsWalking");
+        private static readonly int DashHash = Animator.StringToHash("Dash");
+        private static readonly int IsDefending = Animator.StringToHash("IsDefending");
 
         private void Start()
         {
@@ -52,8 +59,9 @@ namespace Character
 
         public void SetMovementDirection(Vector3 direction)
         {
-            _inputMovement = direction;
+            _inputMovement = direction.normalized;
         }
+
         public void ShootAt(Vector3 position)
         {
             if (_isShieldActive) return;
@@ -75,6 +83,7 @@ namespace Character
         public void Dash()
         {
             if (_isDashing) return;
+            anim.SetTrigger(DashHash);
             InitializeDashWithParams(dashTime, dashDistance);
         }
 
@@ -93,7 +102,7 @@ namespace Character
             _currentDashTime = time;
             _currentDashDistance = dist;
         }
-        
+
         public void ToggleShield(bool isActive)
         {
             if (isActive)
@@ -101,7 +110,7 @@ namespace Character
             else
                 DisableShield();
         }
-        
+
         void Update()
         {
             if (!_isDashing) 
@@ -114,21 +123,25 @@ namespace Character
 
         private void EnableShield()
         {
-            Debug.Log("SHIELDACTIVADO");
             _isShieldActive = true;
-            Debug.Log(_isShieldActive);
+            anim.SetBool(IsDefending, true);
+            anim.SetTrigger(DirectionChanged);
         }
+
         private void DisableShield()
         {
-            Debug.Log("SHIELDdesACTIVADO");
             _isShieldActive = false;
+            anim.SetBool(IsDefending, false);
+            anim.SetTrigger(DirectionChanged);
         }
 
         private void HandleDash()
         {
+            if (!_isDashing) return;
             if (_dashTimer >= _currentDashTime)
             {
                 _isDashing = false;
+                anim.SetTrigger(DirectionChanged);
                 return;
             }
             
@@ -155,13 +168,39 @@ namespace Character
 
         private void HandleMovement()
         {
-            if (_inputMovement.magnitude <= 0) return;
-            
+            if (_inputMovement.magnitude <= 0)
+            {
+                anim.SetBool(IsWalking, false);
+                return;
+            }
+            anim.SetBool(IsWalking, true);
+            SetMovementAnimation();
+
             var finalSpeed = Time.deltaTime * movementSpeed * _inputMovement;
             _lastMoveDirection = _inputMovement;
             var collisions = characterController.Move(finalSpeed);
             if (collisions != CollisionFlags.None)
                 OnCollidedWithSomething?.Invoke();
+        }
+
+        private void SetMovementAnimation()
+        {
+            int animationIndex = 0;
+                
+            if (_lastMoveDirection.x > 0)
+                animationIndex = 1;
+            if (_lastMoveDirection.x < 0)
+                animationIndex = 2;
+            if (_lastMoveDirection.z > 0)
+                animationIndex = 3;
+            if (_lastMoveDirection.z < 0)
+                animationIndex = 0;
+            
+            if (anim.GetInteger(MoveDirection) != animationIndex)
+            {
+                anim.SetTrigger(DirectionChanged);
+                anim.SetInteger(MoveDirection, animationIndex);
+            }
         }
 
         public void ReceiveDamage()
