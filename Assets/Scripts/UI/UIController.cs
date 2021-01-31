@@ -2,6 +2,7 @@ using System;
 using Character;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace UI
@@ -70,7 +71,7 @@ namespace UI
         private void OnBossDeath(EntityController entity)
         {
             entity.OnHealthChangedEvent -= OnBossDamaged;
-            Debug.Log("Ganaste el juego");
+            SceneManager.LoadScene("Credits");
         }
 
         private void OnBossDamaged(int max, int current)
