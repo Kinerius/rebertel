@@ -15,6 +15,7 @@ namespace Sound
         public static SoundManager Instance = null;
         
         public AudioClip Disparo;
+        public AudioClip Dash;
         
         private void Awake()
         {
@@ -30,12 +31,14 @@ namespace Sound
             DontDestroyOnLoad (gameObject);
         }
 
-        public void Play(AudioClip clip)
+        public void Play(AudioClip clip, float volume = 1)
         {
             var source = EffectsSource[lastAudioSourceIndex];
             float randomPitch = Random.Range(LowPitchRange, HighPitchRange);
             source.Stop();
             source.clip = clip;
+            source.volume = volume;
+            source.pitch = randomPitch;
             source.Play();
             lastAudioSourceIndex = (lastAudioSourceIndex + 1) % EffectsSource.Length;
         }

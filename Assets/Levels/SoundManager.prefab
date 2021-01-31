@@ -447,9 +447,10 @@ MonoBehaviour:
   - {fileID: 7956087693457123365}
   - {fileID: 1561887015462439855}
   MusicSource: {fileID: 3778411952360808327}
-  LowPitchRange: 0.9
-  HighPitchRange: 1.1
+  LowPitchRange: 0.6
+  HighPitchRange: 1.2
   Disparo: {fileID: 8300000, guid: 523589c055982774284b41f86a5378cb, type: 3}
+  Dash: {fileID: 8300000, guid: 6a3ebb6d6ef7a9d4caea60de62c0651c, type: 3}
 --- !u!1 &2757409703461824600
 GameObject:
   m_ObjectHideFlags: 0

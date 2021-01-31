@@ -128,6 +128,7 @@ namespace Character
             if (_hasSpawnedRecently) return;
             if (_isDashing) return;
             anim.SetTrigger(DashHash);
+            SoundManager.Instance.Play(SoundManager.Instance.Dash, 0.4f);
             InitializeDashWithParams(dashTime, dashDistance);
         }
 
