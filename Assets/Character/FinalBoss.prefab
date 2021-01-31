@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 7006926930487327800, guid: 24391225767c2ba4e846f1df851aa7a7, type: 3}
     - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: life
-      value: 50
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: isBoss
@@ -42,11 +42,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: movementSpeed
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: bulletsPerSecond
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3434961802536407844, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: m_RootOrder

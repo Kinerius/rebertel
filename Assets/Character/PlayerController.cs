@@ -24,6 +24,13 @@ namespace Character
 
         private void Update()
         {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
+
+            if (targetEntity == null) return;
+            
             HandleMovement();
 
             if (Input.GetMouseButton(0))
@@ -45,6 +52,7 @@ namespace Character
                 ToggleShield(false);
             }
 
+           
             /*if (Input.GetKeyDown(KeyCode.K))
             {
                 targetEntity.Stun(Vector3.zero);
