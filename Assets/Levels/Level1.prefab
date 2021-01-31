@@ -997,12 +997,13 @@ MonoBehaviour:
   - {fileID: 255849254443807764}
   - {fileID: 6340398334003321051}
   waves:
-  - when: 2
-    count: 5
+  - when: 3
+    count: 2
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
     timeForEachSpawn: 1
   nextLevelPortal: {fileID: 1036179382637057032}
   sentences: []
+  item: {fileID: 0}
 --- !u!1 &5586737010901145595
 GameObject:
   m_ObjectHideFlags: 0

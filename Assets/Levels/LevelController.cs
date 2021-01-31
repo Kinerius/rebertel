@@ -19,6 +19,8 @@ namespace Levels
         [SerializeField] private WaveData[] waves;
         [SerializeField] GameObject nextLevelPortal;
         [SerializeField] public List<Sprite> sentences;
+        
+        [SerializeField] GameObject item;
 
         private EntityController _player;
         private List<Wave> _waves;
@@ -30,6 +32,10 @@ namespace Levels
         public void Initialize()
         {
             nextLevelPortal.gameObject.SetActive(false);
+            if (item != null)
+            {
+                item.gameObject.SetActive(false);
+            }
             
             _player = GameObject.Find("Player").GetComponent<EntityController>();
             if(_player == null)
@@ -64,6 +70,7 @@ namespace Levels
         {
             UIController.Instance.SetCountdown(-1);
             LevelCompleted?.Invoke();
+            _player.Heal();
         }
 
         private void OnNextLevelPortalExited()
@@ -127,6 +134,10 @@ namespace Levels
             if (enemyCount == 0)
             {
                 nextLevelPortal.gameObject.SetActive(true);
+                if (item != null)
+                {
+                    item.gameObject.SetActive(true);
+                }
             }
         }
     }

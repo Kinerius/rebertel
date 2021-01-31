@@ -14,6 +14,7 @@
           <e p="PlayerController.cs" t="Include" />
         </e>
         <e p="Dialog.cs" t="Include" />
+        <e p="IntroScene.cs" t="Include" />
         <e p="Levels" t="Include">
           <e p="GameController.cs" t="Include" />
           <e p="LevelController.cs" t="Include" />
@@ -346,6 +347,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="TriggerScene.cs" t="Include" />
       </e>
       <e p="LocalPackages" t="Include">
         <e p="com.unity.render-pipelines.high-definition-config" t="Include">
