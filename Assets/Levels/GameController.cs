@@ -19,7 +19,7 @@ namespace Levels
         private void StartLevel(int level)
         {
             _currentLevel = levelControllers[level];
-            dialogController.setSentences(_currentLevel.sentences);
+            //dialogController.setSentences(_currentLevel.sentences);
             _currentLevel.Initialize();
             _currentLevel.gameObject.SetActive(true);
             _currentLevel.LevelCompleted += OnLevelComplete;
