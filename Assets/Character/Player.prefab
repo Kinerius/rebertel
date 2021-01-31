@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3434961801160755594}
   - component: {fileID: 3434961801160755592}
+  - component: {fileID: 7513942510797323810}
   m_Layer: 6
-  m_Name: character_rough
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b97e0bb46e4efd44c9d830e5996568d9, type: 3}
+  m_Sprite: {fileID: 7364455532358054635, guid: 66d8e0f4f8c1d514a88c6895f3923114, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,6 +83,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &7513942510797323810
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3434961801160755595}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 475c741be9e875241be6494bb996459e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3434961802536407845
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 3434961802536407842}
+  anim: {fileID: 7513942510797323810}
   life: 5
   movementSpeed: 5
   dashDistance: 3
@@ -186,3 +207,4 @@ MonoBehaviour:
   projectile: {fileID: 8082670911155300143, guid: fbf27a871200a63428af473aa9ce850c, type: 3}
   bulletsPerSecond: 2
   bulletSpeed: 10
+  spawnTime: 0
