@@ -451,6 +451,7 @@ MonoBehaviour:
   HighPitchRange: 1.2
   Disparo: {fileID: 8300000, guid: 523589c055982774284b41f86a5378cb, type: 3}
   Dash: {fileID: 8300000, guid: 6a3ebb6d6ef7a9d4caea60de62c0651c, type: 3}
+  Defeat: {fileID: 8300000, guid: cde478d2771679b47b3cf1c0b86c92e7, type: 3}
 --- !u!1 &2757409703461824600
 GameObject:
   m_ObjectHideFlags: 0

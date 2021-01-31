@@ -129,6 +129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentences:
   - {fileID: -8103306041401540145, guid: 162c9f5084fc1214da6b2a5c13f15aa4, type: 3}
+  upgradeWeapon: 0
+  upgradeShield: 0
+  upgradeDash: 1
 --- !u!135 &1022971331236828274
 SphereCollider:
   m_ObjectHideFlags: 0
