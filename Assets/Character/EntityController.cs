@@ -96,6 +96,12 @@ namespace Character
             }
         }
 
+        public void Heal()
+        {
+            _currentLife = life;
+            OnHealthChanged(life, _currentLife);
+        }
+
         public void SetMovementDirection(Vector3 direction)
         {
             _inputMovement = direction.normalized;
