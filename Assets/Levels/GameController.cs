@@ -1,25 +1,26 @@
+using Sound;
 using UnityEngine;
 
 namespace Levels
 {
     public class GameController : MonoBehaviour
     {
-        [SerializeField]
-        LevelController[] levelControllers;
-        [SerializeField]
-        Dialog dialogController;
-
+        [SerializeField] LevelController[] levelControllers;
+        [SerializeField] Dialog dialogController;
+        [SerializeField] private AudioClip music;
+        
         private LevelController _currentLevel;
         private int _currentLevelIndex = 0;
         private void Start()
         {
             StartLevel(0);
+            SoundManager.Instance.PlayMusic(music);
         }
 
         private void StartLevel(int level)
         {
             _currentLevel = levelControllers[level];
-            dialogController.setSentences(_currentLevel.sentences);
+            //dialogController.setSentences(_currentLevel.sentences);
             _currentLevel.Initialize();
             _currentLevel.gameObject.SetActive(true);
             _currentLevel.LevelCompleted += OnLevelComplete;

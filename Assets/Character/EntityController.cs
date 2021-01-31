@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Sound;
 using UnityEngine;
 
 namespace Character
@@ -33,7 +34,8 @@ namespace Character
         [SerializeField] private float bulletsPerSecond = 2;
         [SerializeField] private float bulletSpeed = 10;
 
-        [Header("Spawning")] [SerializeField] private float spawnTime = 0;
+        [Header("Spawning")] [SerializeField] 
+        private float spawnTime = 0;
 
         private float _currentDashDistance;
         private float _currentDashTime;
@@ -52,18 +54,34 @@ namespace Character
         private bool _hasShotRecently = false;
         private float _shootStateTotalTime = .5f;
         
+        // spawning
+        private bool _hasSpawnedRecently = false;
+        private float _spawnTimeLeft = 0;
+        
         private static readonly int DirectionChanged = Animator.StringToHash("DirectionChanged");
         private static readonly int MoveDirection = Animator.StringToHash("MoveDirection");
         private static readonly int IsWalking = Animator.StringToHash("IsWalking");
         private static readonly int DashHash = Animator.StringToHash("Dash");
         private static readonly int IsDefending = Animator.StringToHash("IsDefending");
         private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
+        private static readonly int Spawn = Animator.StringToHash("Spawn");
 
         private void Start()
         {
             _portalLayer = LayerMask.NameToLayer("Portal");
             _currentLife = life;
             anim.speed = .5f;
+
+            if (spawnTime > 0)
+            {
+                _hasSpawnedRecently = true;
+                _spawnTimeLeft = spawnTime;
+                anim.SetTrigger(Spawn);
+            }
+            else
+            {
+                anim.SetTrigger(DirectionChanged);
+            }
         }
 
         public void SetMovementDirection(Vector3 direction)
@@ -74,8 +92,8 @@ namespace Character
         public void ShootAt(Vector3 position)
         {
             if (_isShieldActive) return;
+            if (_hasShotRecently) return;
             if (_bulletTimer > 0) return;
-
 
             var entityPosition = transform.position;
             var hipHeight = entityPosition.y + 1;
@@ -89,6 +107,9 @@ namespace Character
             var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
             var bullet = bulletIsntance.GetComponent<Bullet>();
             bullet.SetSpeed(bulletSpeed);
+            
+            SoundManager.Instance.Play(SoundManager.Instance.Disparo);
+            
             _bulletTimer = 1 / bulletsPerSecond;
         }
 
@@ -104,8 +125,10 @@ namespace Character
 
         public void Dash()
         {
+            if (_hasSpawnedRecently) return;
             if (_isDashing) return;
             anim.SetTrigger(DashHash);
+            SoundManager.Instance.Play(SoundManager.Instance.Dash, 0.4f);
             InitializeDashWithParams(dashTime, dashDistance);
         }
 
@@ -135,6 +158,17 @@ namespace Character
 
         void Update()
         {
+            if (_hasSpawnedRecently)
+            {
+                _spawnTimeLeft -= Time.deltaTime;
+                if (_spawnTimeLeft <= 0)
+                {
+                    _hasSpawnedRecently = false;
+                }
+
+                return;
+            }
+            
             if (!_isDashing) 
                 HandleMovement();
             else
@@ -160,6 +194,8 @@ namespace Character
 
         private void EnableShield()
         {
+            if (_hasSpawnedRecently) return;
+
             _isShieldActive = true;
             anim.SetBool(IsDefending, true);
             anim.SetTrigger(DirectionChanged);
@@ -167,6 +203,8 @@ namespace Character
 
         private void DisableShield()
         {
+            if (_hasSpawnedRecently) return;
+
             _isShieldActive = false;
             anim.SetBool(IsDefending, false);
             anim.SetTrigger(DirectionChanged);
@@ -254,6 +292,7 @@ namespace Character
 
         public void ReceiveDamage()
         {
+            if (_hasSpawnedRecently) return;
             if (_isShieldActive) return;
             _currentLife--;
             OnHealthChanged(life, _currentLife);

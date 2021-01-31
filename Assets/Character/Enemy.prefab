@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1039097a50d52b0439029c84e77d07df, type: 3}
+  m_Sprite: {fileID: 5279098509115424479, guid: dfb6817f8f89e564794d1425f4915331, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
   projectile: {fileID: 8082670911155300143, guid: fbf27a871200a63428af473aa9ce850c, type: 3}
   bulletsPerSecond: 2
   bulletSpeed: 10
-  spawnTime: 0
+  spawnTime: 1
 --- !u!114 &-2517059488165002327
 MonoBehaviour:
   m_ObjectHideFlags: 0
