@@ -19,6 +19,7 @@ namespace Character
         }
         private void Update()
         {
+            if (player == null) return;
             ShootAtPlayer();
             MoveAround();
             UpdateCooldowns();

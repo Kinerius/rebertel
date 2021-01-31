@@ -18,6 +18,7 @@ namespace Character
         }
         private void Update()
         {
+            if (player == null) return;
             MoveToPlayer();
         }
         private void MoveToPlayer()

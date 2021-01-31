@@ -454,6 +454,7 @@ MonoBehaviour:
   Defeat: {fileID: 8300000, guid: cde478d2771679b47b3cf1c0b86c92e7, type: 3}
   BossMusic: {fileID: 8300000, guid: 7c281bd14c9496347a298bc2d78d94cb, type: 3}
   IntroMusic: {fileID: 8300000, guid: 2f0d01e74ebcfce478757f8a6f88aff1, type: 3}
+  Ouch: {fileID: 8300000, guid: 5a16abb066747b24a98c0bcb71550b9c, type: 3}
 --- !u!1 &2757409703461824600
 GameObject:
   m_ObjectHideFlags: 0

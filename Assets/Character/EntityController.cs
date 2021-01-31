@@ -188,6 +188,7 @@ namespace Character
 
         public void Stun(Vector3 fromEnemyPosition)
         {
+            SoundManager.Instance.Play(SoundManager.Instance.Ouch);
             _lastMoveDirection = (fromEnemyPosition - transform.position).normalized;
             _lastMoveDirection.y = transform.position.y;
             InitializeDashWithParams(.25f, -2);

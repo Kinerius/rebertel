@@ -1,6 +1,8 @@
 using System;
 using Character;
 using TMPro;
+using UniRx;
+using UniRx.Triggers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -58,6 +60,9 @@ namespace UI
         public void ShowDefeat()
         {
             defeatScreen.gameObject.SetActive(true);
+            defeatScreen.OnPointerClickAsObservable()
+                .Do(_ => SceneManager.LoadScene("MenuOpening"))
+                .Subscribe();
         }
 
         public void ShowBossBar(EntityController entity)
