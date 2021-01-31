@@ -20,10 +20,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3434961801160755592, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6468377780585988523, guid: 058bae5b87deedc42a6b92eb237c7b16, type: 3}
     - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: projectile
       value: 
       objectReference: {fileID: 3471293799594088811, guid: 88667ba7f36b4c648876b1c82d9c4916, type: 3}
+    - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+      propertyPath: bulletSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+      propertyPath: bulletsPerSecond
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3434961802536407844, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -72,6 +84,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyRanged
       objectReference: {fileID: 0}
+    - target: {fileID: 6571808996918983486, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: dfc600911acbbff44ae87437b681735d, type: 2}
     m_RemovedComponents:
     - {fileID: -2517059488165002327, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
