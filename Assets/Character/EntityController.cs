@@ -1,5 +1,7 @@
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Character
@@ -55,6 +57,7 @@ namespace Character
         {
             _portalLayer = LayerMask.NameToLayer("Portal");
             _currentLife = life;
+            anim.speed = .5f;
         }
 
         public void SetMovementDirection(Vector3 direction)
@@ -186,15 +189,21 @@ namespace Character
         private void SetMovementAnimation()
         {
             int animationIndex = 0;
-                
-            if (_lastMoveDirection.x > 0)
-                animationIndex = 1;
-            if (_lastMoveDirection.x < 0)
-                animationIndex = 2;
-            if (_lastMoveDirection.z > 0)
-                animationIndex = 3;
-            if (_lastMoveDirection.z < 0)
-                animationIndex = 0;
+
+            var rightDot = Vector3.Dot(_lastMoveDirection, Vector3.right);
+            var leftDot = Vector3.Dot(_lastMoveDirection, Vector3.left);
+            var upDot = Vector3.Dot(_lastMoveDirection, Vector3.forward);
+            var downDot = Vector3.Dot(_lastMoveDirection, Vector3.back);
+
+            var dic = new Dictionary<int, float>()
+            {
+                {0, downDot},
+                {1, rightDot},
+                {2, leftDot},
+                {3, upDot}
+            };
+
+            animationIndex = dic.OrderByDescending(kvp => kvp.Value).First().Key;
             
             if (anim.GetInteger(MoveDirection) != animationIndex)
             {

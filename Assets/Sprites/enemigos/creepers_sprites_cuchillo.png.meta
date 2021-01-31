@@ -1,12 +1,72 @@
 fileFormatVersion: 2
 guid: dfb6817f8f89e564794d1425f4915331
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5279098509115424479
+    second: creepers_sprites_cuchillo_0
+  - first:
+      213: -3287564310033283745
+    second: creepers_sprites_cuchillo_1
+  - first:
+      213: -5387195857300292486
+    second: creepers_sprites_cuchillo_2
+  - first:
+      213: -8093582861286544755
+    second: creepers_sprites_cuchillo_3
+  - first:
+      213: 7820457623913636767
+    second: creepers_sprites_cuchillo_4
+  - first:
+      213: -6491096901805659167
+    second: creepers_sprites_cuchillo_5
+  - first:
+      213: -8699055353451302981
+    second: creepers_sprites_cuchillo_6
+  - first:
+      213: -4782646504659651655
+    second: creepers_sprites_cuchillo_7
+  - first:
+      213: 8038438047366280558
+    second: creepers_sprites_cuchillo_8
+  - first:
+      213: -8245946168314614962
+    second: creepers_sprites_cuchillo_9
+  - first:
+      213: 4674262967987594623
+    second: creepers_sprites_cuchillo_10
+  - first:
+      213: 225337789833570653
+    second: creepers_sprites_cuchillo_11
+  - first:
+      213: 1249190972917203727
+    second: creepers_sprites_cuchillo_12
+  - first:
+      213: 7935973308782933755
+    second: creepers_sprites_cuchillo_13
+  - first:
+      213: -1795604294377206828
+    second: creepers_sprites_cuchillo_14
+  - first:
+      213: 1985890767641987763
+    second: creepers_sprites_cuchillo_15
+  - first:
+      213: -6781924946301969728
+    second: creepers_sprites_cuchillo_16
+  - first:
+      213: -4146625042295965974
+    second: creepers_sprites_cuchillo_17
+  - first:
+      213: 7396791073334578399
+    second: creepers_sprites_cuchillo_18
+  - first:
+      213: 7597775358771748663
+    second: creepers_sprites_cuchillo_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,24 +95,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,13 +135,445 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 7788
+        width: 909
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde7e1acf10234940800000000000000
+      internalID: 5279098509115424479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_1
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 7788
+        width: 639
+        height: 1202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c634ada93062d0800000000000000
+      internalID: -3287564310033283745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_2
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 7788
+        width: 968
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cf82e09e5dc35b0800000000000000
+      internalID: -5387195857300292486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_3
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 7788
+        width: 525
+        height: 1206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a63d0f441ddaf80800000000000000
+      internalID: -8093582861286544755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 6011
+        width: 1064
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f932e5e36c8d78c60800000000000000
+      internalID: 7820457623913636767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_5
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 6198
+        width: 1106
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb2c3552cdfae5a0800000000000000
+      internalID: -6491096901805659167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_6
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 6066
+        width: 1128
+        height: 1329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf2310ee3fb64780800000000000000
+      internalID: -8699055353451302981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_7
+      rect:
+        serializedVersion: 2
+        x: 3922
+        y: 6143
+        width: 1118
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b37f73f750a0adb0800000000000000
+      internalID: -4782646504659651655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4425
+        width: 859
+        height: 1289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65704a80d44e8f60800000000000000
+      internalID: 8038438047366280558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_9
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 4448
+        width: 571
+        height: 1202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b2d9816a3809d80800000000000000
+      internalID: -8245946168314614962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_10
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 4425
+        width: 858
+        height: 1152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75e9a177615ed040800000000000000
+      internalID: 4674262967987594623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_11
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 4448
+        width: 580
+        height: 1202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d596085a68f802300800000000000000
+      internalID: 225337789833570653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_12
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2835
+        width: 576
+        height: 1207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03ca554294065110800000000000000
+      internalID: 1249190972917203727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_13
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 2817
+        width: 858
+        height: 1151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6fcf08dad322e60800000000000000
+      internalID: 7935973308782933755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_14
+      rect:
+        serializedVersion: 2
+        x: 2716
+        y: 2835
+        width: 570
+        height: 1207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db0b74686bb417e0800000000000000
+      internalID: -1795604294377206828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_15
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 2817
+        width: 863
+        height: 1289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba4708a12d4f8b10800000000000000
+      internalID: 1985890767641987763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1085
+        width: 1119
+        height: 1293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca9f4a8133c1e1a0800000000000000
+      internalID: -6781924946301969728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_17
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1149
+        width: 1114
+        height: 1229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6b5396e7a3476c0800000000000000
+      internalID: -4146625042295965974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_18
+      rect:
+        serializedVersion: 2
+        x: 2663
+        y: 1053
+        width: 1108
+        height: 1330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc43e39a4ea6a660800000000000000
+      internalID: 7396791073334578399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_cuchillo_19
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 1149
+        width: 1119
+        height: 1229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f5ece1f68b07960800000000000000
+      internalID: 7597775358771748663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
