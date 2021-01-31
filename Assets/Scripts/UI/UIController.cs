@@ -14,11 +14,14 @@ namespace UI
         [SerializeField] private Image healthBarFill;
         [SerializeField] private RectTransform countdownContainer;
         [SerializeField] private TextMeshProUGUI countdownText;
+       
+        [SerializeField] private Image defeatScreen;
         private EntityController _player;
 
         private void Awake()
         {
             instance = this;
+            defeatScreen.gameObject.SetActive(false);
         }
 
         void Start()
@@ -44,6 +47,11 @@ namespace UI
             }
             countdownContainer.gameObject.SetActive(true);
             countdownText.text = countdown.ToString();
+        }
+
+        public void ShowDefeat()
+        {
+            defeatScreen.gameObject.SetActive(true);
         }
     }
 }
