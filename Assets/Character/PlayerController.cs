@@ -1,4 +1,6 @@
 ﻿using System;
+using Sound;
+using UI;
 using UnityEngine;
 
 namespace Character
@@ -11,6 +13,13 @@ namespace Character
         private void Start()
         {
             _camera = Camera.main;
+            targetEntity.OnDeathEvent += OnDeath;
+        }
+
+        private void OnDeath()
+        {
+            SoundManager.Instance.PlayMusic(SoundManager.Instance.Defeat);
+            UIController.Instance.ShowDefeat();
         }
 
         private void Update()

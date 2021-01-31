@@ -1,0 +1,1140 @@
+fileFormatVersion: 2
+guid: a12120f19d4a48148b42b21c8a2fd7fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8062467807956084525
+    second: final_boss_sprites_disparo_0
+  - first:
+      213: -9147735242647105868
+    second: final_boss_sprites_disparo_1
+  - first:
+      213: -5481447171425027578
+    second: final_boss_sprites_disparo_2
+  - first:
+      213: -5410945436797197191
+    second: final_boss_sprites_disparo_3
+  - first:
+      213: -6073720733445597190
+    second: final_boss_sprites_disparo_4
+  - first:
+      213: -2456009688592616308
+    second: final_boss_sprites_disparo_5
+  - first:
+      213: 2873443283135507367
+    second: final_boss_sprites_disparo_6
+  - first:
+      213: 6220912855671367293
+    second: final_boss_sprites_disparo_7
+  - first:
+      213: -8121421423713061396
+    second: final_boss_sprites_disparo_8
+  - first:
+      213: 5076536341857211594
+    second: final_boss_sprites_disparo_9
+  - first:
+      213: -1757484051522083434
+    second: final_boss_sprites_disparo_10
+  - first:
+      213: 3735511823471961663
+    second: final_boss_sprites_disparo_11
+  - first:
+      213: -3551218443015345126
+    second: final_boss_sprites_disparo_12
+  - first:
+      213: -4251216960252407891
+    second: final_boss_sprites_disparo_13
+  - first:
+      213: 7389545141788139363
+    second: final_boss_sprites_disparo_14
+  - first:
+      213: -262259763619269717
+    second: final_boss_sprites_disparo_15
+  - first:
+      213: -4290995201676806520
+    second: final_boss_sprites_disparo_16
+  - first:
+      213: -7905660271082751942
+    second: final_boss_sprites_disparo_17
+  - first:
+      213: -2822429779475479544
+    second: final_boss_sprites_disparo_18
+  - first:
+      213: -5169655135269613698
+    second: final_boss_sprites_disparo_19
+  - first:
+      213: -7947509333819443375
+    second: final_boss_sprites_disparo_20
+  - first:
+      213: -7682535395495114458
+    second: final_boss_sprites_disparo_21
+  - first:
+      213: -5046498191189178359
+    second: final_boss_sprites_disparo_22
+  - first:
+      213: 6413886471947264173
+    second: final_boss_sprites_disparo_23
+  - first:
+      213: -6812272405693407259
+    second: final_boss_sprites_disparo_24
+  - first:
+      213: -6293535767346002528
+    second: final_boss_sprites_disparo_25
+  - first:
+      213: -946824431365845534
+    second: final_boss_sprites_disparo_26
+  - first:
+      213: 3115415842394029715
+    second: final_boss_sprites_disparo_27
+  - first:
+      213: 8252890485232983358
+    second: final_boss_sprites_disparo_28
+  - first:
+      213: -829342447008252274
+    second: final_boss_sprites_disparo_29
+  - first:
+      213: 7221930593188841772
+    second: final_boss_sprites_disparo_30
+  - first:
+      213: -5054848865677998395
+    second: final_boss_sprites_disparo_31
+  - first:
+      213: -6672506735886742613
+    second: final_boss_sprites_disparo_32
+  - first:
+      213: -2572494282346292677
+    second: final_boss_sprites_disparo_33
+  - first:
+      213: 6798578699921420492
+    second: final_boss_sprites_disparo_34
+  - first:
+      213: 1611274118668322870
+    second: final_boss_sprites_disparo_35
+  - first:
+      213: -1581502845558053207
+    second: final_boss_sprites_disparo_36
+  - first:
+      213: 5266516533955449627
+    second: final_boss_sprites_disparo_37
+  - first:
+      213: 4489486388131926660
+    second: final_boss_sprites_disparo_38
+  - first:
+      213: -4013199738013170196
+    second: final_boss_sprites_disparo_39
+  - first:
+      213: 2874163337989032666
+    second: final_boss_sprites_disparo_40
+  - first:
+      213: -5604726000664757851
+    second: final_boss_sprites_disparo_41
+  - first:
+      213: -1772789153249290786
+    second: final_boss_sprites_disparo_42
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_0
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9534
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27ae3a21c3a3ef60800000000000000
+      internalID: 8062467807956084525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_1
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 9510
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be82ba7347bc0180800000000000000
+      internalID: -9147735242647105868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_2
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 7913
+        width: 1543
+        height: 1631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a342ce6dcfde3b0800000000000000
+      internalID: -5481447171425027578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_3
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 7928
+        width: 1755
+        height: 1679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974aeac2bc578e4b0800000000000000
+      internalID: -5410945436797197191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_4
+      rect:
+        serializedVersion: 2
+        x: 5955
+        y: 7913
+        width: 1610
+        height: 1631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7dc024c2fc5bba0800000000000000
+      internalID: -6073720733445597190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 7914
+        width: 1533
+        height: 1620
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84f48263308aedd0800000000000000
+      internalID: -2456009688592616308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_6
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 8473
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab268d117580e720800000000000000
+      internalID: 2873443283135507367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_7
+      rect:
+        serializedVersion: 2
+        x: 5935
+        y: 8458
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76e3fc484f155650800000000000000
+      internalID: 6220912855671367293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_8
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 7767
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5f5588e3aea4f80800000000000000
+      internalID: -8121421423713061396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_9
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 7738
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac492c108ea737640800000000000000
+      internalID: 5076536341857211594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_10
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 7767
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695ac9211992c97e0800000000000000
+      internalID: -1757484051522083434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_11
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 7743
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36615c363437d330800000000000000
+      internalID: 3735511823471961663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_12
+      rect:
+        serializedVersion: 2
+        x: 3959
+        y: 7770
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c214824a987bec0800000000000000
+      internalID: -3551218443015345126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_13
+      rect:
+        serializedVersion: 2
+        x: 4105
+        y: 7743
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf0a05d2b4a005c0800000000000000
+      internalID: -4251216960252407891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_14
+      rect:
+        serializedVersion: 2
+        x: 5546
+        y: 7767
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fdefba720fc8660800000000000000
+      internalID: 7389545141788139363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_15
+      rect:
+        serializedVersion: 2
+        x: 5692
+        y: 7743
+        width: 77
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3789e62244c5cf0800000000000000
+      internalID: -262259763619269717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 6029
+        width: 1484
+        height: 1733
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886f52749925374c0800000000000000
+      internalID: -4290995201676806520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_17
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 7100
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38b1339ed3794290800000000000000
+      internalID: -7905660271082751942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_18
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 6148
+        width: 1411
+        height: 1619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80441e6c117b4d8d0800000000000000
+      internalID: -2822429779475479544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_19
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 6049
+        width: 1528
+        height: 1718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f0bf26b02b148b0800000000000000
+      internalID: -5169655135269613698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_20
+      rect:
+        serializedVersion: 2
+        x: 4884
+        y: 7091
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157379c5e56c4b190800000000000000
+      internalID: -7947509333819443375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_21
+      rect:
+        serializedVersion: 2
+        x: 4913
+        y: 6146
+        width: 1411
+        height: 1616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6290629f2c6226590800000000000000
+      internalID: -7682535395495114458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_22
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 4325
+        width: 1543
+        height: 1616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9088482f1ac37f9b0800000000000000
+      internalID: -5046498191189178359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_23
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 4306
+        width: 1514
+        height: 1634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0a91693c3b20950800000000000000
+      internalID: 6413886471947264173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_24
+      rect:
+        serializedVersion: 2
+        x: 3580
+        y: 5265
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efd2790752f571a0800000000000000
+      internalID: -6812272405693407259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_25
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 4296
+        width: 1528
+        height: 1616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5402e609ed8a8a0800000000000000
+      internalID: -6293535767346002528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_26
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 4286
+        width: 1508
+        height: 1626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed07c732343cd2f0800000000000000
+      internalID: -946824431365845534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_27
+      rect:
+        serializedVersion: 2
+        x: 6821
+        y: 5260
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e3585d33e2c3b20800000000000000
+      internalID: 3115415842394029715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_28
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 4890
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d538eab28288270800000000000000
+      internalID: 8252890485232983358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_29
+      rect:
+        serializedVersion: 2
+        x: 5254
+        y: 4916
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e7be040759d74f0800000000000000
+      internalID: -829342447008252274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_30
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2573
+        width: 1611
+        height: 1626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c290c8f6c93793460800000000000000
+      internalID: 7221930593188841772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_31
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 3587
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c60af70db199d9b0800000000000000
+      internalID: -5054848865677998395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_32
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 2583
+        width: 1596
+        height: 1616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc116e97e7663a0800000000000000
+      internalID: -6672506735886742613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_33
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 2568
+        width: 1611
+        height: 1628
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a9602741aac4cd0800000000000000
+      internalID: -2572494282346292677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_34
+      rect:
+        serializedVersion: 2
+        x: 5312
+        y: 3571
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc07a52ae47695e50800000000000000
+      internalID: 6798578699921420492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_35
+      rect:
+        serializedVersion: 2
+        x: 5332
+        y: 2583
+        width: 1615
+        height: 1616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638810726456c5610800000000000000
+      internalID: 1611274118668322870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3133
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a62e378a8f5d0ae0800000000000000
+      internalID: -1581502845558053207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_37
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 3138
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13d22a62ec661940800000000000000
+      internalID: 5266516533955449627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_38
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 2569
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4821e8c651cdd4e30800000000000000
+      internalID: 4489486388131926660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_39
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 601
+        width: 1776
+        height: 1723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5c803e9104e48c0800000000000000
+      internalID: -4013199738013170196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_40
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 650
+        width: 1742
+        height: 1689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada8943f35413e720800000000000000
+      internalID: 2874163337989032666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_41
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 616
+        width: 1767
+        height: 1728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a93bf2c5630832b0800000000000000
+      internalID: -5604726000664757851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final_boss_sprites_disparo_42
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 640
+        width: 1762
+        height: 1680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed519e268a9c567e0800000000000000
+      internalID: -1772789153249290786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0430c746d13bef443995b08c56e7ddd7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
