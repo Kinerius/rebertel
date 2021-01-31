@@ -307,6 +307,9 @@
         </e>
         <e p="RangedAI.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="Sound" t="Include">
+            <e p="SoundManager.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="UIController.cs" t="Include" />
           </e>

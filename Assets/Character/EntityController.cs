@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Sound;
 using UnityEngine;
 
 namespace Character
@@ -81,7 +82,6 @@ namespace Character
             {
                 anim.SetTrigger(DirectionChanged);
             }
-            
         }
 
         public void SetMovementDirection(Vector3 direction)
@@ -95,7 +95,6 @@ namespace Character
             if (_hasShotRecently) return;
             if (_bulletTimer > 0) return;
 
-
             var entityPosition = transform.position;
             var hipHeight = entityPosition.y + 1;
             var targetPosition = position;
@@ -108,6 +107,9 @@ namespace Character
             var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
             var bullet = bulletIsntance.GetComponent<Bullet>();
             bullet.SetSpeed(bulletSpeed);
+            
+            SoundManager.Instance.Play(SoundManager.Instance.Disparo);
+            
             _bulletTimer = 1 / bulletsPerSecond;
         }
 
