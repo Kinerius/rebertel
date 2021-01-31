@@ -16,12 +16,17 @@ namespace UI
         [SerializeField] private TextMeshProUGUI countdownText;
        
         [SerializeField] private Image defeatScreen;
+        
+        [SerializeField] private RectTransform bossBar;
+        [SerializeField] private Image bossBarLife;
+
         private EntityController _player;
 
         private void Awake()
         {
             instance = this;
             defeatScreen.gameObject.SetActive(false);
+            bossBar.gameObject.SetActive(false);
         }
 
         void Start()
@@ -52,6 +57,25 @@ namespace UI
         public void ShowDefeat()
         {
             defeatScreen.gameObject.SetActive(true);
+        }
+
+        public void ShowBossBar(EntityController entity)
+        {
+            bossBar.gameObject.SetActive(true);
+            entity.OnHealthChangedEvent += OnBossDamaged;
+            entity.OnDeathEvent += () => OnBossDeath(entity);
+            bossBarLife.fillAmount = 1;
+        }
+
+        private void OnBossDeath(EntityController entity)
+        {
+            entity.OnHealthChangedEvent -= OnBossDamaged;
+            Debug.Log("Ganaste el juego");
+        }
+
+        private void OnBossDamaged(int max, int current)
+        {
+            bossBarLife.fillAmount = current / (float)max;
         }
     }
 }

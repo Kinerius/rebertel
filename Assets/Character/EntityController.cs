@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sound;
+using UI;
 using UnityEngine;
 
 namespace Character
@@ -41,6 +42,7 @@ namespace Character
         public bool isBlasterUpgraded = false;
         public bool isShieldUpgraded = false;
         public bool isDashUpgraded = false;
+        public bool isBoss = false;
         
         private float _currentDashDistance;
         private float _currentDashTime;
@@ -87,6 +89,11 @@ namespace Character
             {
                 anim.SetTrigger(DirectionChanged);
             }
+
+            if (isBoss)
+            {
+                UIController.Instance.ShowBossBar(this);
+            }
         }
 
         public void SetMovementDirection(Vector3 direction)
@@ -110,10 +117,25 @@ namespace Character
 
             SetShootingAnimationState(direction);
 
-            var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
-            var bullet = bulletIsntance.GetComponent<Bullet>();
-            bullet.SetSpeed(bulletSpeed);
-            
+            if (!isBoss)
+            {
+                var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
+                var bullet = bulletIsntance.GetComponent<Bullet>();
+                bullet.SetSpeed(bulletSpeed);
+            } else {
+                var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction) * Quaternion.AngleAxis(-15, Vector3.up));
+                var bullet = bulletIsntance.GetComponent<Bullet>();
+                bullet.SetSpeed(bulletSpeed);
+                
+                bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction)* Quaternion.AngleAxis(15, Vector3.up));
+                bullet = bulletIsntance.GetComponent<Bullet>();
+                bullet.SetSpeed(bulletSpeed);
+                
+                bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
+                bullet = bulletIsntance.GetComponent<Bullet>();
+                bullet.SetSpeed(bulletSpeed);
+            }
+
             SoundManager.Instance.Play(SoundManager.Instance.Disparo);
             var bps = isBlasterUpgraded ? bulletsPerSecond * 2 : bulletsPerSecond;
             _bulletTimer = 1 / bps;
