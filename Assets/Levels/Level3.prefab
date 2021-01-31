@@ -2133,12 +2133,16 @@ MonoBehaviour:
   - {fileID: 330953267934042337}
   waves:
   - when: 2
-    count: 5
+    count: 15
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
-    timeForEachSpawn: 0.5
+    timeForEachSpawn: 1
   - when: 5
     count: 5
     prefab: {fileID: 2257543147842463904, guid: 26fc1ab5831103b4cbc066b5647a1adb, type: 3}
+    timeForEachSpawn: 2
+  - when: 7
+    count: 3
+    prefab: {fileID: 2257543147842463904, guid: bf445b70498d3ea499db372ee266a5ea, type: 3}
     timeForEachSpawn: 2
   nextLevelPortal: {fileID: 372760298798827637}
   sentences: []

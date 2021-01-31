@@ -111,7 +111,6 @@ namespace Character
         {
             if (_hasSpawnedRecently) return;
             if (_isShieldActive) return;
-            if (_hasShotRecently) return;
             if (_bulletTimer > 0) return;
 
             var entityPosition = transform.position;
@@ -121,13 +120,31 @@ namespace Character
             var direction = (targetPosition - entityPosition).normalized;
             var spawnPosition = entityPosition + Vector3.up + direction * BulletSpawnDistance;
 
-            SetShootingAnimationState(direction);
+            if (!_hasShotRecently) SetShootingAnimationState(direction);
 
             if (!isBoss)
             {
-                var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
-                var bullet = bulletIsntance.GetComponent<Bullet>();
-                bullet.SetSpeed(bulletSpeed);
+                if (isBlasterUpgraded)
+                {
+                    var left = spawnPosition + Vector3.Cross(direction, Vector3.up) * 0.3f;
+                    var right = spawnPosition - Vector3.Cross(direction, Vector3.up) * 0.3f;
+                    
+                    var bulletIsntance = Instantiate(projectile, left, Quaternion.LookRotation(direction));
+                    var bullet = bulletIsntance.GetComponent<Bullet>();
+                    bullet.SetSpeed(bulletSpeed);
+                    
+                    bulletIsntance = Instantiate(projectile, right, Quaternion.LookRotation(direction));
+                    bullet = bulletIsntance.GetComponent<Bullet>();
+                    bullet.SetSpeed(bulletSpeed);
+                }
+                else
+                {
+                    var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
+                    var bullet = bulletIsntance.GetComponent<Bullet>();
+                    bullet.SetSpeed(bulletSpeed);
+                }
+                
+                
             } else {
                 var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction) * Quaternion.AngleAxis(-15, Vector3.up));
                 var bullet = bulletIsntance.GetComponent<Bullet>();
@@ -143,8 +160,8 @@ namespace Character
             }
 
             SoundManager.Instance.Play(SoundManager.Instance.Disparo);
-            var bps = isBlasterUpgraded ? bulletsPerSecond * 2 : bulletsPerSecond;
-            _bulletTimer = 1 / bps;
+            //var bps = isBlasterUpgraded ? 4 : bulletsPerSecond;
+            _bulletTimer = 1 / bulletsPerSecond;
         }
 
         private void SetShootingAnimationState(Vector3 direction)

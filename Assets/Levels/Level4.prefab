@@ -2047,13 +2047,21 @@ MonoBehaviour:
   - {fileID: 330953267934042337}
   waves:
   - when: 2
-    count: 5
-    prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
-    timeForEachSpawn: 0.5
-  - when: 5
     count: 10
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
-    timeForEachSpawn: 0.5
+    timeForEachSpawn: 1
+  - when: 5
+    count: 10
+    prefab: {fileID: 2257543147842463904, guid: 26fc1ab5831103b4cbc066b5647a1adb, type: 3}
+    timeForEachSpawn: 3
+  - when: 7
+    count: 2
+    prefab: {fileID: 2257543147842463904, guid: e7e2239fba5e18b49b3c1017dca545ab, type: 3}
+    timeForEachSpawn: 5
+  - when: 7
+    count: 5
+    prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+    timeForEachSpawn: 0.1
   nextLevelPortal: {fileID: 372760298798827637}
   sentences: []
   item: {fileID: 6622585658553825501}

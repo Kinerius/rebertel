@@ -183,12 +183,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4017033071556653503, guid: 2a04ce7fe5a9c494895133315ffe3ca2, type: 3}
-      propertyPath: waves.Array.data[0].count
-      value: 15
+      propertyPath: waves.Array.data[2].when
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4017033071556653503, guid: 2a04ce7fe5a9c494895133315ffe3ca2, type: 3}
-      propertyPath: waves.Array.data[0].timeForEachSpawn
+      propertyPath: waves.Array.data[1].count
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017033071556653503, guid: 2a04ce7fe5a9c494895133315ffe3ca2, type: 3}
+      propertyPath: waves.Array.data[2].count
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4017033071556653503, guid: 2a04ce7fe5a9c494895133315ffe3ca2, type: 3}
+      propertyPath: waves.Array.data[2].timeForEachSpawn
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a04ce7fe5a9c494895133315ffe3ca2, type: 3}
