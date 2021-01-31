@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Sound;
 using UnityEngine;
 
 namespace Character
@@ -33,9 +34,11 @@ namespace Character
         [SerializeField] private float bulletsPerSecond = 2;
         [SerializeField] private float bulletSpeed = 10;
 
-        [Header("Spawning")] [SerializeField] 
-        private float spawnTime = 0;
+        [Header("Spawning")] 
+        [SerializeField] private float spawnTime = 0;
 
+        [Header("Upgrades")]
+        
         private float _currentDashDistance;
         private float _currentDashTime;
         private float _bulletTimer;
@@ -56,7 +59,7 @@ namespace Character
         // spawning
         private bool _hasSpawnedRecently = false;
         private float _spawnTimeLeft = 0;
-        
+
         private static readonly int DirectionChanged = Animator.StringToHash("DirectionChanged");
         private static readonly int MoveDirection = Animator.StringToHash("MoveDirection");
         private static readonly int IsWalking = Animator.StringToHash("IsWalking");
@@ -81,7 +84,6 @@ namespace Character
             {
                 anim.SetTrigger(DirectionChanged);
             }
-            
         }
 
         public void SetMovementDirection(Vector3 direction)
@@ -91,10 +93,10 @@ namespace Character
 
         public void ShootAt(Vector3 position)
         {
+            if (_hasSpawnedRecently) return;
             if (_isShieldActive) return;
             if (_hasShotRecently) return;
             if (_bulletTimer > 0) return;
-
 
             var entityPosition = transform.position;
             var hipHeight = entityPosition.y + 1;
@@ -108,6 +110,9 @@ namespace Character
             var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
             var bullet = bulletIsntance.GetComponent<Bullet>();
             bullet.SetSpeed(bulletSpeed);
+            
+            SoundManager.Instance.Play(SoundManager.Instance.Disparo);
+            
             _bulletTimer = 1 / bulletsPerSecond;
         }
 
@@ -126,6 +131,7 @@ namespace Character
             if (_hasSpawnedRecently) return;
             if (_isDashing) return;
             anim.SetTrigger(DashHash);
+            SoundManager.Instance.Play(SoundManager.Instance.Dash, 0.4f);
             InitializeDashWithParams(dashTime, dashDistance);
         }
 

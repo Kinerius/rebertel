@@ -1,19 +1,20 @@
+using Sound;
 using UnityEngine;
 
 namespace Levels
 {
     public class GameController : MonoBehaviour
     {
-        [SerializeField]
-        LevelController[] levelControllers;
-        [SerializeField]
-        Dialog dialogController;
-
+        [SerializeField] LevelController[] levelControllers;
+        [SerializeField] Dialog dialogController;
+        [SerializeField] private AudioClip music;
+        
         private LevelController _currentLevel;
         private int _currentLevelIndex = 0;
         private void Start()
         {
             StartLevel(0);
+            SoundManager.Instance.PlayMusic(music);
         }
 
         private void StartLevel(int level)

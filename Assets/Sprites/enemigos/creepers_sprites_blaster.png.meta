@@ -1,16 +1,72 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 058bae5b87deedc42a6b92eb237c7b16
-=======
-guid: eb9d169d486f8af43b5c4c31159c0013
->>>>>>> Stashed changes
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6468377780585988523
+    second: creepers_sprites_blaster_0
+  - first:
+      213: -7513967702284094642
+    second: creepers_sprites_blaster_1
+  - first:
+      213: 3283955469100347788
+    second: creepers_sprites_blaster_2
+  - first:
+      213: 3788912168272113933
+    second: creepers_sprites_blaster_3
+  - first:
+      213: -4923079367573499251
+    second: creepers_sprites_blaster_4
+  - first:
+      213: 446707611318133340
+    second: creepers_sprites_blaster_5
+  - first:
+      213: 3785715915607800599
+    second: creepers_sprites_blaster_6
+  - first:
+      213: -6702361196875537827
+    second: creepers_sprites_blaster_7
+  - first:
+      213: 2464484661359898556
+    second: creepers_sprites_blaster_8
+  - first:
+      213: 8350208330838827014
+    second: creepers_sprites_blaster_9
+  - first:
+      213: -1548606213171059750
+    second: creepers_sprites_blaster_10
+  - first:
+      213: 4379065348528956003
+    second: creepers_sprites_blaster_11
+  - first:
+      213: 3207255127596252943
+    second: creepers_sprites_blaster_12
+  - first:
+      213: -8975632176618101900
+    second: creepers_sprites_blaster_13
+  - first:
+      213: 1666474854388345659
+    second: creepers_sprites_blaster_14
+  - first:
+      213: 3679197496548339988
+    second: creepers_sprites_blaster_15
+  - first:
+      213: 5431370981368054448
+    second: creepers_sprites_blaster_16
+  - first:
+      213: -7020873170849152072
+    second: creepers_sprites_blaster_17
+  - first:
+      213: -3158089300104519047
+    second: creepers_sprites_blaster_18
+  - first:
+      213: -5577778873695832727
+    second: creepers_sprites_blaster_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -39,24 +95,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -65,14 +121,26 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -81,11 +149,431 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 7788
+        width: 836
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e7423fda4bb36a0800000000000000
+      internalID: -6468377780585988523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_1
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 7788
+        width: 529
+        height: 1202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43399b7f2609b790800000000000000
+      internalID: -7513967702284094642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_2
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 7788
+        width: 838
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c817de99914f29d20800000000000000
+      internalID: 3283955469100347788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_3
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 7788
+        width: 525
+        height: 1202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01b303ea8be49430800000000000000
+      internalID: 3788912168272113933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 6011
+        width: 831
+        height: 1426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d821ab61665bdabb0800000000000000
+      internalID: -4923079367573499251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_5
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 6198
+        width: 836
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52a41ba436033600800000000000000
+      internalID: 446707611318133340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_6
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 6061
+        width: 799
+        height: 1334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b78525190998430800000000000000
+      internalID: 3785715915607800599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_7
+      rect:
+        serializedVersion: 2
+        x: 4205
+        y: 6139
+        width: 835
+        height: 1238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d522fd7800e6cf2a0800000000000000
+      internalID: -6702361196875537827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4425
+        width: 859
+        height: 1289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf61cafdbb933220800000000000000
+      internalID: 2464484661359898556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_9
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 4444
+        width: 621
+        height: 1206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600e7205c36e1e370800000000000000
+      internalID: 8350208330838827014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_10
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 4425
+        width: 858
+        height: 1152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e9fe9ade328ae0800000000000000
+      internalID: -1548606213171059750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_11
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 4444
+        width: 625
+        height: 1206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3626a43bbb095cc30800000000000000
+      internalID: 4379065348528956003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_12
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2835
+        width: 651
+        height: 1207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fbc68bb85728c20800000000000000
+      internalID: 3207255127596252943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_13
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2817
+        width: 863
+        height: 1151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473ac1e1716207380800000000000000
+      internalID: -8975632176618101900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_14
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 2835
+        width: 605
+        height: 1207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b20fafc02802710800000000000000
+      internalID: 1666474854388345659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_15
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 2817
+        width: 863
+        height: 1289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411354041a22f0330800000000000000
+      internalID: 3679197496548339988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_16
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1085
+        width: 841
+        height: 1298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2cec3812b106b40800000000000000
+      internalID: 5431370981368054448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_17
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1149
+        width: 890
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3477e9c09d09e90800000000000000
+      internalID: -7020873170849152072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_18
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 1053
+        width: 859
+        height: 1330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972ee4a83863c24d0800000000000000
+      internalID: -3158089300104519047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creepers_sprites_blaster_19
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 1149
+        width: 891
+        height: 1234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9657eadaaafb792b0800000000000000
+      internalID: -5577778873695832727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2c289f1e5a2e6e14f83968ebb3aa2409
     internalID: 0
     vertices: []
     indices: 

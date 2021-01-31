@@ -1,12 +1,72 @@
 fileFormatVersion: 2
 guid: 5cdf596008e037d40a1b5f7fb4bd3fa2
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5816528309185213793
+    second: Boss2Blaster_0
+  - first:
+      213: -7894028367743449788
+    second: Boss2Blaster_2
+  - first:
+      213: 2088425448906560594
+    second: Boss2Blaster_3
+  - first:
+      213: -1817423898714938217
+    second: Boss2Blaster_4
+  - first:
+      213: 8414920071194193692
+    second: Boss2Blaster_6
+  - first:
+      213: -4425261036434239484
+    second: Boss2Blaster_8
+  - first:
+      213: 8937316252897789690
+    second: Boss2Blaster_10
+  - first:
+      213: -371052641407169706
+    second: Boss2Blaster_12
+  - first:
+      213: 4202957921044271738
+    second: Boss2Blaster_14
+  - first:
+      213: 4196776042242527015
+    second: Boss2Blaster_15
+  - first:
+      213: -2250381813356878801
+    second: Boss2Blaster_16
+  - first:
+      213: -2848904664608524037
+    second: Boss2Blaster_17
+  - first:
+      213: -7591392741926514700
+    second: Boss2Blaster_18
+  - first:
+      213: 902321263394890106
+    second: Boss2Blaster_19
+  - first:
+      213: -8924829329637971660
+    second: Boss2Blaster_20
+  - first:
+      213: -5458254118830692781
+    second: Boss2Blaster_21
+  - first:
+      213: 1717915561755356764
+    second: Boss2Blaster_23
+  - first:
+      213: -7099829809457529381
+    second: Boss2Blaster_25
+  - first:
+      213: -8341228043563385266
+    second: Boss2Blaster_27
+  - first:
+      213: -1976100353716706390
+    second: Boss2Blaster_29
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +95,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +110,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,13 +135,445 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Boss2Blaster_0
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 7793
+        width: 859
+        height: 1565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165fcfe0ea578b050800000000000000
+      internalID: 5816528309185213793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_2
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 7793
+        width: 902
+        height: 1540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4458bcd1607c27290800000000000000
+      internalID: -7894028367743449788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_3
+      rect:
+        serializedVersion: 2
+        x: 2286
+        y: 7770
+        width: 822
+        height: 1588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25416fd71e39bfc10800000000000000
+      internalID: 2088425448906560594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_4
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 7788
+        width: 914
+        height: 1545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7946aced79637c6e0800000000000000
+      internalID: -1817423898714938217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 6034
+        width: 859
+        height: 1617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fa5d8783dc7c470800000000000000
+      internalID: 8414920071194193692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_8
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 6080
+        width: 858
+        height: 1571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400d5fc88805692c0800000000000000
+      internalID: -4425261036434239484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_10
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 6034
+        width: 859
+        height: 1617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af64c43b7c9b70c70800000000000000
+      internalID: 8937316252897789690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_12
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 6080
+        width: 863
+        height: 1571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b84fba691c9daf0800000000000000
+      internalID: -371052641407169706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 4421
+        width: 991
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7212c106f7e35a30800000000000000
+      internalID: 4202957921044271738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_15
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 4393
+        width: 904
+        height: 1540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f4cbf2391fd3a30800000000000000
+      internalID: 4196776042242527015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_16
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 4393
+        width: 991
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f242ddde9a905c0e0800000000000000
+      internalID: -2250381813356878801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_17
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 4393
+        width: 900
+        height: 1540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf83e0b3d48a678d0800000000000000
+      internalID: -2848904664608524037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2808
+        width: 1014
+        height: 1493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffcdfaa584f5a690800000000000000
+      internalID: -7591392741926514700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_19
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 2753
+        width: 918
+        height: 1548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a712fe98860b58c00800000000000000
+      internalID: 902321263394890106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_20
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2785
+        width: 1012
+        height: 1485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439e0fda203a42480800000000000000
+      internalID: -8924829329637971660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_21
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2753
+        width: 918
+        height: 1548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356a8494cc26044b0800000000000000
+      internalID: -5458254118830692781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_23
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 934
+        width: 821
+        height: 1627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e2b8cf91347d710800000000000000
+      internalID: 1717915561755356764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_25
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 966
+        width: 817
+        height: 1595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddfd81a766587d90800000000000000
+      internalID: -7099829809457529381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_27
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 892
+        width: 822
+        height: 1669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eb0e0c9410e3c80800000000000000
+      internalID: -8341228043563385266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss2Blaster_29
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 966
+        width: 822
+        height: 1595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa32138b23b7394e0800000000000000
+      internalID: -1976100353716706390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
