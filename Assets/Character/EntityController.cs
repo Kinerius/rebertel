@@ -34,9 +34,11 @@ namespace Character
         [SerializeField] private float bulletsPerSecond = 2;
         [SerializeField] private float bulletSpeed = 10;
 
-        [Header("Spawning")] [SerializeField] 
-        private float spawnTime = 0;
+        [Header("Spawning")] 
+        [SerializeField] private float spawnTime = 0;
 
+        [Header("Upgrades")]
+        
         private float _currentDashDistance;
         private float _currentDashTime;
         private float _bulletTimer;
@@ -57,7 +59,7 @@ namespace Character
         // spawning
         private bool _hasSpawnedRecently = false;
         private float _spawnTimeLeft = 0;
-        
+
         private static readonly int DirectionChanged = Animator.StringToHash("DirectionChanged");
         private static readonly int MoveDirection = Animator.StringToHash("MoveDirection");
         private static readonly int IsWalking = Animator.StringToHash("IsWalking");
@@ -91,6 +93,7 @@ namespace Character
 
         public void ShootAt(Vector3 position)
         {
+            if (_hasSpawnedRecently) return;
             if (_isShieldActive) return;
             if (_hasShotRecently) return;
             if (_bulletTimer > 0) return;
