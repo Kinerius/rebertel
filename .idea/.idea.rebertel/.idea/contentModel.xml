@@ -13,6 +13,7 @@
           <e p="MeleeAI.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
         </e>
+        <e p="CredisQuit.cs" t="Include" />
         <e p="Dialog.cs" t="Include" />
         <e p="IntroScene.cs" t="Include" />
         <e p="Levels" t="Include">
