@@ -1,7 +1,136 @@
 fileFormatVersion: 2
 guid: ef882bc6bc146ae4f84ea64d4da0a219
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1574271290588198596
+    second: reber-del_sprites_escudo_0
+  - first:
+      213: -8243957172466238417
+    second: reber-del_sprites_escudo_1
+  - first:
+      213: 788214059851711423
+    second: reber-del_sprites_escudo_2
+  - first:
+      213: -3722821213374571824
+    second: reber-del_sprites_escudo_3
+  - first:
+      213: -2861221600544142047
+    second: reber-del_sprites_escudo_4
+  - first:
+      213: 3455422281257202572
+    second: reber-del_sprites_escudo_5
+  - first:
+      213: -2196683184077600988
+    second: reber-del_sprites_escudo_6
+  - first:
+      213: 6780697286206780641
+    second: reber-del_sprites_escudo_7
+  - first:
+      213: 7837668588869321355
+    second: reber-del_sprites_escudo_8
+  - first:
+      213: 6744925235895289834
+    second: reber-del_sprites_escudo_9
+  - first:
+      213: 3746917976292310021
+    second: reber-del_sprites_escudo_10
+  - first:
+      213: -267711302687556067
+    second: reber-del_sprites_escudo_11
+  - first:
+      213: -9096101801072742108
+    second: reber-del_sprites_escudo_12
+  - first:
+      213: -7984476399762212536
+    second: reber-del_sprites_escudo_13
+  - first:
+      213: 9184295738375630620
+    second: reber-del_sprites_escudo_14
+  - first:
+      213: -400844811579180693
+    second: reber-del_sprites_escudo_15
+  - first:
+      213: 5872400146827669170
+    second: reber-del_sprites_escudo_16
+  - first:
+      213: -7564453630719846395
+    second: reber-del_sprites_escudo_17
+  - first:
+      213: -3035219728116584515
+    second: reber-del_sprites_escudo_18
+  - first:
+      213: 935060679021081185
+    second: reber-del_sprites_escudo_19
+  - first:
+      213: 1464988534121429278
+    second: reber-del_sprites_escudo_20
+  - first:
+      213: -792015528001676633
+    second: reber-del_sprites_escudo_21
+  - first:
+      213: 6073513324156989725
+    second: reber-del_sprites_escudo_22
+  - first:
+      213: -6439139814567728731
+    second: reber-del_sprites_escudo_23
+  - first:
+      213: 1776586888064022193
+    second: reber-del_sprites_escudo_24
+  - first:
+      213: -7543932987150138743
+    second: reber-del_sprites_escudo_25
+  - first:
+      213: -4321391292252657329
+    second: reber-del_sprites_escudo_26
+  - first:
+      213: -6929805199340407544
+    second: reber-del_sprites_escudo_27
+  - first:
+      213: 8362822596144214091
+    second: reber-del_sprites_escudo_28
+  - first:
+      213: -5487118392700830668
+    second: reber-del_sprites_escudo_29
+  - first:
+      213: 7195664225732392734
+    second: reber-del_sprites_escudo_30
+  - first:
+      213: -8423879959091943798
+    second: reber-del_sprites_escudo_31
+  - first:
+      213: -7699949462176205605
+    second: reber-del_sprites_escudo_32
+  - first:
+      213: 4831963086212825015
+    second: reber-del_sprites_escudo_33
+  - first:
+      213: -4246320103114097068
+    second: reber-del_sprites_escudo_34
+  - first:
+      213: 5224657331366697624
+    second: reber-del_sprites_escudo_35
+  - first:
+      213: 741062508221795464
+    second: reber-del_sprites_escudo_36
+  - first:
+      213: 3123648640320941126
+    second: reber-del_sprites_escudo_37
+  - first:
+      213: 3467370339243431470
+    second: reber-del_sprites_escudo_38
+  - first:
+      213: 5351158855182810711
+    second: reber-del_sprites_escudo_39
+  - first:
+      213: -7356936666152351688
+    second: reber-del_sprites_escudo_40
+  - first:
+      213: -5305312669450650385
+    second: reber-del_sprites_escudo_41
+  - first:
+      213: 4271348159189082068
+    second: reber-del_sprites_escudo_42
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +161,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -46,7 +175,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,11 +218,914 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_0
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 7771
+        width: 911
+        height: 1531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3905602a90172ae0800000000000000
+      internalID: -1574271290588198596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_1
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 7785
+        width: 972
+        height: 1508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cbd9741a4979d80800000000000000
+      internalID: -8243957172466238417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_2
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 7771
+        width: 926
+        height: 1531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb30e64e28c40fa00800000000000000
+      internalID: 788214059851711423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_3
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 8377
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da158ea4d1e55cc0800000000000000
+      internalID: -3722821213374571824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_4
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 7785
+        width: 990
+        height: 1504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d44eb1d16ea48d0800000000000000
+      internalID: -2861221600544142047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_5
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 8289
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833e47d14024ff20800000000000000
+      internalID: 3455422281257202572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 6054
+        width: 889
+        height: 1569
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4270bf85840d381e0800000000000000
+      internalID: -2196683184077600988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_7
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 6119
+        width: 939
+        height: 1532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e47fc19140e91e50800000000000000
+      internalID: 6780697286206780641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_8
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 6915
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b820bca4e0ef4cc60800000000000000
+      internalID: 7837668588869321355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_9
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 6036
+        width: 883
+        height: 1652
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74b1214c9ca9d50800000000000000
+      internalID: 6744925235895289834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_10
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 6873
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cbd632c0abff330800000000000000
+      internalID: 3746917976292310021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_11
+      rect:
+        serializedVersion: 2
+        x: 3732
+        y: 6119
+        width: 907
+        height: 1532
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e73f41df5e84cf0800000000000000
+      internalID: -267711302687556067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_12
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 6799
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421b44aea9724c180800000000000000
+      internalID: -9096101801072742108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_13
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 6827
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849feaa9401713190800000000000000
+      internalID: -7984476399762212536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_14
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 6795
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f6306405c257f70800000000000000
+      internalID: 9184295738375630620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_15
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 6684
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b3c384c9ef6af0800000000000000
+      internalID: -400844811579180693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_16
+      rect:
+        serializedVersion: 2
+        x: 3664
+        y: 6725
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be6d9af1d4fe7150800000000000000
+      internalID: 5872400146827669170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_17
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 6633
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50897054089a50790800000000000000
+      internalID: -7564453630719846395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_18
+      rect:
+        serializedVersion: 2
+        x: 2538
+        y: 6573
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf6a521dbbb0e5d0800000000000000
+      internalID: -3035219728116584515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_19
+      rect:
+        serializedVersion: 2
+        x: 3637
+        y: 6634
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162bc70cbb00afc00800000000000000
+      internalID: 935060679021081185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_20
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 6610
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19f3585f4fa45410800000000000000
+      internalID: 1464988534121429278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_21
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 4417
+        width: 1064
+        height: 1512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaddd4d2123205f0800000000000000
+      internalID: -792015528001676633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_22
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 4426
+        width: 949
+        height: 1503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11baf08034794450800000000000000
+      internalID: 6073513324156989725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_23
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 4417
+        width: 1050
+        height: 1512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9ad95647493a6a0800000000000000
+      internalID: -6439139814567728731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_24
+      rect:
+        serializedVersion: 2
+        x: 3797
+        y: 4426
+        width: 949
+        height: 1503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b63ca7ac54b7a810800000000000000
+      internalID: 1776586888064022193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_25
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2820
+        width: 1110
+        height: 1504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982809beae09e4790800000000000000
+      internalID: -7543932987150138743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_26
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 2820
+        width: 983
+        height: 1504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4960d1f3855704c0800000000000000
+      internalID: -4321391292252657329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_27
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 2816
+        width: 1027
+        height: 1517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805f8aa03e264df90800000000000000
+      internalID: -6929805199340407544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_28
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 2816
+        width: 986
+        height: 1508
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4039c2d7d6be0470800000000000000
+      internalID: 8362822596144214091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_29
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1062
+        width: 958
+        height: 1559
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cfd82d4e6d9d3b0800000000000000
+      internalID: -5487118392700830668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_30
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1735
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17f3c13d722cd360800000000000000
+      internalID: 7195664225732392734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_31
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1090
+        width: 916
+        height: 1531
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86eacf0fcd581b80800000000000000
+      internalID: -8423879959091943798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_32
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1687
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4f68e92c8442590800000000000000
+      internalID: -7699949462176205605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_33
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1062
+        width: 916
+        height: 1624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff38973d49e0340800000000000000
+      internalID: 4831963086212825015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_34
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 1724
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb84b3d5a0215c0800000000000000
+      internalID: -4246320103114097068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_35
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 1122
+        width: 921
+        height: 1527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a90455926b18840800000000000000
+      internalID: 5224657331366697624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_36
+      rect:
+        serializedVersion: 2
+        x: 4654
+        y: 1724
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c8be6cc68c84a00800000000000000
+      internalID: 741062508221795464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_37
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1646
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c267973ed695b20800000000000000
+      internalID: 3123648640320941126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_38
+      rect:
+        serializedVersion: 2
+        x: 3492
+        y: 1636
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26945fd3f29e1030800000000000000
+      internalID: 3467370339243431470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_39
+      rect:
+        serializedVersion: 2
+        x: 4616
+        y: 1636
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e7bdb80a2234a40800000000000000
+      internalID: 5351158855182810711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_40
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 1599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83841f2b419e6e990800000000000000
+      internalID: -7356936666152351688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_41
+      rect:
+        serializedVersion: 2
+        x: 4700
+        y: 1624
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecb3036c3ebf56b0800000000000000
+      internalID: -5305312669450650385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_escudo_42
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1597
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfdb7c2580e64b30800000000000000
+      internalID: 4271348159189082068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4cedc992b06060c49827f27aad85f877
     internalID: 0
     vertices: []
     indices: 

@@ -48,6 +48,8 @@ namespace Character
         private static readonly int DirectionChanged = Animator.StringToHash("DirectionChanged");
         private static readonly int MoveDirection = Animator.StringToHash("MoveDirection");
         private static readonly int IsWalking = Animator.StringToHash("IsWalking");
+        private static readonly int DashHash = Animator.StringToHash("Dash");
+        private static readonly int IsDefending = Animator.StringToHash("IsDefending");
 
         private void Start()
         {
@@ -81,6 +83,7 @@ namespace Character
         public void Dash()
         {
             if (_isDashing) return;
+            anim.SetTrigger(DashHash);
             InitializeDashWithParams(dashTime, dashDistance);
         }
 
@@ -120,22 +123,25 @@ namespace Character
 
         private void EnableShield()
         {
-            Debug.Log("SHIELDACTIVADO");
             _isShieldActive = true;
-            Debug.Log(_isShieldActive);
+            anim.SetBool(IsDefending, true);
+            anim.SetTrigger(DirectionChanged);
         }
 
         private void DisableShield()
         {
-            Debug.Log("SHIELDdesACTIVADO");
             _isShieldActive = false;
+            anim.SetBool(IsDefending, false);
+            anim.SetTrigger(DirectionChanged);
         }
 
         private void HandleDash()
         {
+            if (!_isDashing) return;
             if (_dashTimer >= _currentDashTime)
             {
                 _isDashing = false;
+                anim.SetTrigger(DirectionChanged);
                 return;
             }
             
