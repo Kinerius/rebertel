@@ -7,40 +7,41 @@ public class Dialog : MonoBehaviour
 {
     [SerializeField]
     GameObject TextBox;
-    [SerializeField]
-    private List<Sprite> sentences;
+    
+
+    private List<Sprite> _sentences;
 
     private Image _image;
     private int contador=0;
     
     void Start()
     {
-        sentences = new List<Sprite>();
+        _sentences = new List<Sprite>();
     }
     private void checkSentence()
     {
         TextBox.SetActive(false);
         _image = TextBox.GetComponent<Image>();
-        if (contador < sentences.Count)
+        if (contador < _sentences.Count)
         {
             TextBox.SetActive(true);
-            _image.sprite = sentences[contador];
+            _image.sprite = _sentences[contador];
             Time.timeScale = 0;
         }
     }
     public void setSentences(List<Sprite> sentences)
     {
-        this.sentences = sentences;
+        this._sentences = sentences;
         contador = 0;
         checkSentence();
     }
     public void NextSentence()
     {
         contador++;
-        if (contador < sentences.Count)
+        if (contador < _sentences.Count)
         {
             TextBox.SetActive(true);
-            _image.sprite = sentences[contador];
+            _image.sprite = _sentences[contador];
         }
         else
         {
