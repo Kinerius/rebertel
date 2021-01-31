@@ -114,10 +114,13 @@ namespace Character
 
         private void EnableShield()
         {
+            Debug.Log("SHIELDACTIVADO");
             _isShieldActive = true;
+            Debug.Log(_isShieldActive);
         }
         private void DisableShield()
         {
+            Debug.Log("SHIELDdesACTIVADO");
             _isShieldActive = false;
         }
 
@@ -190,6 +193,15 @@ namespace Character
             if (other.gameObject.layer.Equals(_portalLayer))
             {
                 OnNextLevelPortalEntered?.Invoke();
+            }
+            if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
+            {
+                var player = other.gameObject.GetComponent<EntityController>();
+                if (!player._isShieldActive)
+                {
+                    player.ReceiveDamage();
+                    player.Stun(gameObject.transform.position);
+                }
             }
         }
         
