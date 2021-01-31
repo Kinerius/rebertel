@@ -1,12 +1,162 @@
 fileFormatVersion: 2
 guid: 3220c3ab71379d94e92998eccfbb49bb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8272797321748739347
+    second: reber-del_sprites_blaster_0
+  - first:
+      213: 3552201748093603771
+    second: reber-del_sprites_blaster_1
+  - first:
+      213: 5544401245563953080
+    second: reber-del_sprites_blaster_2
+  - first:
+      213: -3346514484784685941
+    second: reber-del_sprites_blaster_3
+  - first:
+      213: 7240821388656576317
+    second: reber-del_sprites_blaster_4
+  - first:
+      213: -6645871412969584682
+    second: reber-del_sprites_blaster_5
+  - first:
+      213: 7678127300042503069
+    second: reber-del_sprites_blaster_6
+  - first:
+      213: -8584993517896038711
+    second: reber-del_sprites_blaster_7
+  - first:
+      213: -7863382378496686595
+    second: reber-del_sprites_blaster_8
+  - first:
+      213: 7067405393200528556
+    second: reber-del_sprites_blaster_9
+  - first:
+      213: -4901426851406202264
+    second: reber-del_sprites_blaster_10
+  - first:
+      213: 2446259828782408215
+    second: reber-del_sprites_blaster_11
+  - first:
+      213: -59477693627266841
+    second: reber-del_sprites_blaster_12
+  - first:
+      213: 1218630389289172536
+    second: reber-del_sprites_blaster_13
+  - first:
+      213: 4319962797494968850
+    second: reber-del_sprites_blaster_14
+  - first:
+      213: -75704996537992736
+    second: reber-del_sprites_blaster_15
+  - first:
+      213: -6640982655187266310
+    second: reber-del_sprites_blaster_16
+  - first:
+      213: 861195034020026597
+    second: reber-del_sprites_blaster_17
+  - first:
+      213: -3699819718335473062
+    second: reber-del_sprites_blaster_18
+  - first:
+      213: 531061147837214142
+    second: reber-del_sprites_blaster_19
+  - first:
+      213: -1908689476844316698
+    second: reber-del_sprites_blaster_20
+  - first:
+      213: -4650938318479586838
+    second: reber-del_sprites_blaster_21
+  - first:
+      213: -8251757030229467886
+    second: reber-del_sprites_blaster_22
+  - first:
+      213: 8047505889277733545
+    second: reber-del_sprites_blaster_23
+  - first:
+      213: -1482485924611931496
+    second: reber-del_sprites_blaster_24
+  - first:
+      213: 709706855690141460
+    second: reber-del_sprites_blaster_25
+  - first:
+      213: -7782989019995229921
+    second: reber-del_sprites_blaster_26
+  - first:
+      213: -6822907851745034268
+    second: reber-del_sprites_blaster_27
+  - first:
+      213: -8768557629592094009
+    second: reber-del_sprites_blaster_28
+  - first:
+      213: -9099843724057955967
+    second: reber-del_sprites_blaster_29
+  - first:
+      213: -779407872067220604
+    second: reber-del_sprites_blaster_30
+  - first:
+      213: -1520121807167207747
+    second: reber-del_sprites_blaster_31
+  - first:
+      213: -3744128181504303176
+    second: reber-del_sprites_blaster_32
+  - first:
+      213: 443511252301560647
+    second: reber-del_sprites_blaster_33
+  - first:
+      213: -1188261005649736119
+    second: reber-del_sprites_blaster_34
+  - first:
+      213: 5374980246342085964
+    second: reber-del_sprites_blaster_35
+  - first:
+      213: -3343449076326190408
+    second: reber-del_sprites_blaster_36
+  - first:
+      213: 3359892792140245648
+    second: reber-del_sprites_blaster_37
+  - first:
+      213: -266006495296114045
+    second: reber-del_sprites_blaster_38
+  - first:
+      213: -6617721014631602607
+    second: reber-del_sprites_blaster_39
+  - first:
+      213: 3179706708860387572
+    second: reber-del_sprites_blaster_40
+  - first:
+      213: 8930647788464435211
+    second: reber-del_sprites_blaster_41
+  - first:
+      213: -7001062581809069493
+    second: reber-del_sprites_blaster_42
+  - first:
+      213: 9173360528368631499
+    second: reber-del_sprites_blaster_43
+  - first:
+      213: 4267237284007693324
+    second: reber-del_sprites_blaster_44
+  - first:
+      213: -7088081310042748598
+    second: reber-del_sprites_blaster_45
+  - first:
+      213: -3089764644286657800
+    second: reber-del_sprites_blaster_46
+  - first:
+      213: 4141146671776576681
+    second: reber-del_sprites_blaster_47
+  - first:
+      213: 7615838244666015353
+    second: reber-del_sprites_blaster_48
+  - first:
+      213: 2945848291750057574
+    second: reber-del_sprites_blaster_49
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,24 +185,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 800
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,13 +225,1075 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 7770
+        width: 980
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea0d52caae113d80800000000000000
+      internalID: -8272797321748739347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_1
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 7781
+        width: 1144
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf04a56ba4fb4130800000000000000
+      internalID: 3552201748093603771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_2
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 8880
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf921eae8ba1fc40800000000000000
+      internalID: 5544401245563953080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_3
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 7787
+        width: 1098
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c95b28ecace81d0800000000000000
+      internalID: -3346514484784685941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_4
+      rect:
+        serializedVersion: 2
+        x: 4108
+        y: 7770
+        width: 1424
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d370de080b09c7460800000000000000
+      internalID: 7240821388656576317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_5
+      rect:
+        serializedVersion: 2
+        x: 5660
+        y: 7764
+        width: 1047
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d74607492f15c3a0800000000000000
+      internalID: -6645871412969584682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_6
+      rect:
+        serializedVersion: 2
+        x: 6821
+        y: 7770
+        width: 1138
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93334359103e8a60800000000000000
+      internalID: 7678127300042503069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_7
+      rect:
+        serializedVersion: 2
+        x: 8440
+        y: 7770
+        width: 1093
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c686c671e9fbd880800000000000000
+      internalID: -8584993517896038711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_8
+      rect:
+        serializedVersion: 2
+        x: 9584
+        y: 7770
+        width: 1410
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df583a48367afd290800000000000000
+      internalID: -7863382378496686595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_9
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 8348
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacb569a2c7741260800000000000000
+      internalID: 7067405393200528556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_10
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 8370
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a3f5d5f32aafbb0800000000000000
+      internalID: -4901426851406202264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_11
+      rect:
+        serializedVersion: 2
+        x: 8395
+        y: 8343
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71222ea7a5cd2f120800000000000000
+      internalID: 2446259828782408215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_12
+      rect:
+        serializedVersion: 2
+        x: 5592
+        y: 8302
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8894f4a51bc2ff0800000000000000
+      internalID: -59477693627266841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_13
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 8268
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eb31ae1e179e010800000000000000
+      internalID: 1218630389289172536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_14
+      rect:
+        serializedVersion: 2
+        x: 3819
+        y: 8240
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2122793b64793fb30800000000000000
+      internalID: 4319962797494968850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_15
+      rect:
+        serializedVersion: 2
+        x: 8434
+        y: 8217
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e971ade4ba03fef0800000000000000
+      internalID: -75704996537992736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_16
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 8212
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af45806e57d76d3a0800000000000000
+      internalID: -6640982655187266310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_17
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 8047
+        width: 96
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e81815125493fb00800000000000000
+      internalID: 861195034020026597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 6055
+        width: 991
+        height: 1573
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ad0a3919997acc0800000000000000
+      internalID: -3699819718335473062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_19
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 6711
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd29dedc45be5700800000000000000
+      internalID: 531061147837214142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_20
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 6117
+        width: 1138
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e71b229809f285e0800000000000000
+      internalID: -1908689476844316698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_21
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 6015
+        width: 985
+        height: 1653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae985c6bd3c847fb0800000000000000
+      internalID: -4650938318479586838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_22
+      rect:
+        serializedVersion: 2
+        x: 3706
+        y: 6694
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d175063bedb7d80800000000000000
+      internalID: -8251757030229467886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_23
+      rect:
+        serializedVersion: 2
+        x: 4154
+        y: 6117
+        width: 1149
+        height: 1534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa634208fb7eaf60800000000000000
+      internalID: 8047505889277733545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_24
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 6627
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8924df6f7e62d6be0800000000000000
+      internalID: -1482485924611931496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_25
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 6610
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ff11400a269d900800000000000000
+      internalID: 709706855690141460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_26
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 6553
+        width: 97
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f113b6ce8b44df390800000000000000
+      internalID: -7782989019995229921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_27
+      rect:
+        serializedVersion: 2
+        x: 5354
+        y: 6559
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef738945792051a0800000000000000
+      internalID: -6822907851745034268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_28
+      rect:
+        serializedVersion: 2
+        x: 5212
+        y: 6394
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca3f9f2b43df4680800000000000000
+      internalID: -8768557629592094009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 4413
+        width: 1200
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18135f3985cd6b180800000000000000
+      internalID: -9099843724057955967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_30
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 5047
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b4a4a7bacfe25f0800000000000000
+      internalID: -779407872067220604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_31
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 4430
+        width: 1427
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db64974354177eae0800000000000000
+      internalID: -1520121807167207747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_32
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 4413
+        width: 1137
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf18e3914f2a0cc0800000000000000
+      internalID: -3744128181504303176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_33
+      rect:
+        serializedVersion: 2
+        x: 4301
+        y: 5048
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bb257522ba72600800000000000000
+      internalID: 443511252301560647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_34
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 4424
+        width: 1427
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e8cc939e2728fe0800000000000000
+      internalID: -1188261005649736119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_35
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 4918
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d26f16e04c79a40800000000000000
+      internalID: 5374980246342085964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_36
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 4923
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b238f887cea991d0800000000000000
+      internalID: -3343449076326190408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_37
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 3411
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a2ae661bcb0ae20800000000000000
+      internalID: 3359892792140245648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_38
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2829
+        width: 1178
+        height: 1508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382bdeb7084fe4cf0800000000000000
+      internalID: -266006495296114045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_39
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 2839
+        width: 1416
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156ee34acc12924a0800000000000000
+      internalID: -6617721014631602607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_40
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 3417
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0cc87a766902c20800000000000000
+      internalID: 3179706708860387572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_41
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2824
+        width: 1121
+        height: 1520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00fc85d8d800fb70800000000000000
+      internalID: 8930647788464435211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_42
+      rect:
+        serializedVersion: 2
+        x: 4771
+        y: 2834
+        width: 1421
+        height: 1510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42cdf0dcaa37de90800000000000000
+      internalID: -7001062581809069493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_43
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3281
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce700a4cc25e4f70800000000000000
+      internalID: 9173360528368631499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_44
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 3292
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cc49573b5483b30800000000000000
+      internalID: 4267237284007693324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_45
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1057
+        width: 1025
+        height: 1561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4901df4a9312ad90800000000000000
+      internalID: -7088081310042748598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_46
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1085
+        width: 980
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa8bb12d63fe15d0800000000000000
+      internalID: -3089764644286657800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_47
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 1657
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4b80e05fe487930800000000000000
+      internalID: 4141146671776576681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_48
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 1057
+        width: 1041
+        height: 1629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ef6287884e0b960800000000000000
+      internalID: 7615838244666015353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reber-del_sprites_blaster_49
+      rect:
+        serializedVersion: 2
+        x: 4743
+        y: 1085
+        width: 1143
+        height: 1533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66614ffd961c1e820800000000000000
+      internalID: 2945848291750057574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

@@ -47,11 +47,17 @@ namespace Character
         private Vector3 _inputMovement;
         private int _portalLayer;
         
+        // shooting animation variables
+        private float _shootStateTimeLeft = 0;
+        private bool _hasShotRecently = false;
+        private float _shootStateTotalTime = .5f;
+        
         private static readonly int DirectionChanged = Animator.StringToHash("DirectionChanged");
         private static readonly int MoveDirection = Animator.StringToHash("MoveDirection");
         private static readonly int IsWalking = Animator.StringToHash("IsWalking");
         private static readonly int DashHash = Animator.StringToHash("Dash");
         private static readonly int IsDefending = Animator.StringToHash("IsDefending");
+        private static readonly int IsAttacking = Animator.StringToHash("IsAttacking");
 
         private void Start()
         {
@@ -69,7 +75,8 @@ namespace Character
         {
             if (_isShieldActive) return;
             if (_bulletTimer > 0) return;
-            
+
+
             var entityPosition = transform.position;
             var hipHeight = entityPosition.y + 1;
             var targetPosition = position;
@@ -77,10 +84,22 @@ namespace Character
             var direction = (targetPosition - entityPosition).normalized;
             var spawnPosition = entityPosition + Vector3.up + direction * BulletSpawnDistance;
 
+            SetShootingAnimationState(direction);
+
             var bulletIsntance = Instantiate(projectile, spawnPosition, Quaternion.LookRotation(direction));
             var bullet = bulletIsntance.GetComponent<Bullet>();
             bullet.SetSpeed(bulletSpeed);
             _bulletTimer = 1 / bulletsPerSecond;
+        }
+
+        private void SetShootingAnimationState(Vector3 direction)
+        {
+            if (_hasShotRecently) return;
+            _hasShotRecently = true;
+            _shootStateTimeLeft = _shootStateTotalTime;
+            anim.SetBool(IsAttacking, true);
+            anim.SetTrigger(DirectionChanged);
+            anim.SetInteger(MoveDirection, GetAnimationDirection(direction));
         }
 
         public void Dash()
@@ -122,6 +141,21 @@ namespace Character
                 HandleDash();
             
             UpdateCooldowns();
+            HandleShootState();
+        }
+
+        private void HandleShootState()
+        {
+            if (_hasShotRecently)
+            {
+                _shootStateTimeLeft -= Time.deltaTime;
+                if (_shootStateTimeLeft <= 0)
+                {
+                    _hasShotRecently = false;
+                    anim.SetBool(IsAttacking, false);
+                    anim.SetTrigger(DirectionChanged);
+                }
+            }
         }
 
         private void EnableShield()
@@ -190,10 +224,22 @@ namespace Character
         {
             int animationIndex = 0;
 
-            var rightDot = Vector3.Dot(_lastMoveDirection, Vector3.right);
-            var leftDot = Vector3.Dot(_lastMoveDirection, Vector3.left);
-            var upDot = Vector3.Dot(_lastMoveDirection, Vector3.forward);
-            var downDot = Vector3.Dot(_lastMoveDirection, Vector3.back);
+            animationIndex = GetAnimationDirection(_lastMoveDirection);
+
+            if (anim.GetInteger(MoveDirection) != animationIndex)
+            {
+                anim.SetTrigger(DirectionChanged);
+                
+                if (!_hasShotRecently) anim.SetInteger(MoveDirection, animationIndex);
+            }
+        }
+
+        private int GetAnimationDirection(Vector3 direction)
+        {
+            var rightDot = Vector3.Dot(direction, Vector3.right);
+            var leftDot = Vector3.Dot(direction, Vector3.left);
+            var upDot = Vector3.Dot(direction, Vector3.forward);
+            var downDot = Vector3.Dot(direction, Vector3.back);
 
             var dic = new Dictionary<int, float>()
             {
@@ -203,13 +249,7 @@ namespace Character
                 {3, upDot}
             };
 
-            animationIndex = dic.OrderByDescending(kvp => kvp.Value).First().Key;
-            
-            if (anim.GetInteger(MoveDirection) != animationIndex)
-            {
-                anim.SetTrigger(DirectionChanged);
-                anim.SetInteger(MoveDirection, animationIndex);
-            }
+            return dic.OrderByDescending(kvp => kvp.Value).First().Key;
         }
 
         public void ReceiveDamage()
