@@ -18,6 +18,7 @@ namespace Levels
         [SerializeField] GameObject[] enemySpawners;
         [SerializeField] private WaveData[] waves;
         [SerializeField] GameObject nextLevelPortal;
+        [SerializeField] public List<Sprite> sentences;
 
         private EntityController _player;
         private List<Wave> _waves;

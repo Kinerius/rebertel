@@ -1,12 +1,21 @@
 fileFormatVersion: 2
 guid: fa28dbd94567a314eb7804803c8b7e63
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2680712310704498373
+    second: dialogo 1 Rebertel_0
+  - first:
+      213: -8763506241822679024
+    second: dialogo 1 Rebertel_1
+  - first:
+      213: 650149893021809985
+    second: dialogo 1 Rebertel_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,13 +44,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -50,9 +59,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
-  spriteTessellationDetail: -1
-  textureType: 0
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 1
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -75,13 +84,92 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: dialogo 1 Rebertel_0
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 920
+        width: 1720
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39117f3b523ccad0800000000000000
+      internalID: -2680712310704498373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialogo 1 Rebertel_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 465
+        width: 1720
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010ad3d0185c16680800000000000000
+      internalID: -8763506241822679024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dialogo 1 Rebertel_2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 20
+        width: 1720
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14db25012ebc50900800000000000000
+      internalID: 650149893021809985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -891, y: 223}
+      - {x: -891, y: 681}
+      - {x: 1004, y: 681}
+      - {x: 1004, y: 223}
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
