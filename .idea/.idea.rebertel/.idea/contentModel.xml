@@ -13,6 +13,7 @@
           <e p="MeleeAI.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
         </e>
+        <e p="Dialog.cs" t="Include" />
         <e p="Levels" t="Include">
           <e p="GameController.cs" t="Include" />
           <e p="LevelController.cs" t="Include" />
@@ -342,12 +343,22 @@
           </e>
         </e>
       </e>
+      <e p="LocalPackages" t="Include">
+        <e p="com.unity.render-pipelines.high-definition-config" t="Include">
+          <e p="Runtime" t="Include">
+            <e p="ShaderConfig.cs" t="Include" />
+            <e p="ShaderConfig.cs.hlsl" t="Include" />
+            <e p="Unity.RenderPipelines.HighDefinition.Config.Runtime.asmdef" t="Include" />
+          </e>
+        </e>
+      </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="rebertel.sln" t="IncludeFlat" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="UniRx.csproj" t="IncludeRecursive" />
       <e p="UniRx.Examples.csproj" t="IncludeRecursive" />
+      <e p="Unity.RenderPipelines.HighDefinition.Config.Runtime.csproj" t="IncludeRecursive" />
     </e>
   </component>
 </project>
