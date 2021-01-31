@@ -2055,10 +2055,10 @@ MonoBehaviour:
     prefab: {fileID: 2257543147842463904, guid: 26fc1ab5831103b4cbc066b5647a1adb, type: 3}
     timeForEachSpawn: 3
   - when: 7
-    count: 2
+    count: 1
     prefab: {fileID: 2257543147842463904, guid: e7e2239fba5e18b49b3c1017dca545ab, type: 3}
-    timeForEachSpawn: 5
-  - when: 7
+    timeForEachSpawn: 0
+  - when: 10
     count: 5
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
     timeForEachSpawn: 0.1

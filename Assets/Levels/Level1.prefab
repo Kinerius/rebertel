@@ -1002,7 +1002,9 @@ MonoBehaviour:
     prefab: {fileID: 3434961802536407845, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
     timeForEachSpawn: 1
   nextLevelPortal: {fileID: 1036179382637057032}
-  sentences: []
+  sentences:
+  - {fileID: -2680712310704498373, guid: fa28dbd94567a314eb7804803c8b7e63, type: 3}
+  - {fileID: 650149893021809985, guid: fa28dbd94567a314eb7804803c8b7e63, type: 3}
   item: {fileID: 0}
 --- !u!1 &5586737010901145595
 GameObject:

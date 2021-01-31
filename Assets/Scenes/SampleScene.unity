@@ -2513,14 +2513,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3266693614130790611, guid: b0753f080c4384c4faeb5c2bd4ce6722, type: 3}
-      propertyPath: sentences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3266693614130790611, guid: b0753f080c4384c4faeb5c2bd4ce6722, type: 3}
-      propertyPath: sentences.Array.data[0]
-      value: 
-      objectReference: {fileID: -2680712310704498373, guid: fa28dbd94567a314eb7804803c8b7e63, type: 3}
     - target: {fileID: 5068040337754151145, guid: b0753f080c4384c4faeb5c2bd4ce6722, type: 3}
       propertyPath: m_RootOrder
       value: 7

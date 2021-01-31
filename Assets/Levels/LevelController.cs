@@ -27,7 +27,8 @@ namespace Levels
         private int enemyCount;
         private IDisposable _nextLevelTimer;
         private int SECONDS_UNTIL_NEXT_LEVEL = 3;
-        
+        private Dialog _dialogController;
+
 
         public void Initialize()
         {
@@ -48,6 +49,16 @@ namespace Levels
             _player.OnNextLevelPortalEntered += OnNextLevelPortalEntered;
             _player.OnNextLevelPortalExited += OnNextLevelPortalExited;
             
+            _dialogController = GameObject.Find("DialogController").GetComponent<Dialog>();;
+            
+            _dialogController.setSentences(sentences);
+            _dialogController.OnSentensesComplete += StartSpawningWaves;
+            SetupWaves();
+        }
+
+        private void StartSpawningWaves()
+        {
+            _dialogController.OnSentensesComplete -= StartSpawningWaves;
             SetupWaves();
         }
 
@@ -68,6 +79,8 @@ namespace Levels
 
         private void OnNextLevelTimerComplete()
         {
+            _player.OnNextLevelPortalEntered -= OnNextLevelPortalEntered;
+            _player.OnNextLevelPortalExited -= OnNextLevelPortalExited;
             UIController.Instance.SetCountdown(-1);
             LevelCompleted?.Invoke();
             _player.Heal();

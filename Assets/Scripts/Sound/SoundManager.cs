@@ -17,6 +17,7 @@ namespace Sound
         public AudioClip Disparo;
         public AudioClip Dash;
         public AudioClip Defeat;
+        public AudioClip BossMusic;
         
         private void Awake()
         {

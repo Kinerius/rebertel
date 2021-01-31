@@ -452,6 +452,7 @@ MonoBehaviour:
   Disparo: {fileID: 8300000, guid: 523589c055982774284b41f86a5378cb, type: 3}
   Dash: {fileID: 8300000, guid: 6a3ebb6d6ef7a9d4caea60de62c0651c, type: 3}
   Defeat: {fileID: 8300000, guid: cde478d2771679b47b3cf1c0b86c92e7, type: 3}
+  BossMusic: {fileID: 8300000, guid: 7c281bd14c9496347a298bc2d78d94cb, type: 3}
 --- !u!1 &2757409703461824600
 GameObject:
   m_ObjectHideFlags: 0

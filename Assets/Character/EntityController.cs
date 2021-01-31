@@ -93,6 +93,7 @@ namespace Character
             if (isBoss)
             {
                 UIController.Instance.ShowBossBar(this);
+                SoundManager.Instance.PlayMusic(SoundManager.Instance.BossMusic);
             }
         }
 
@@ -345,6 +346,7 @@ namespace Character
 
         public void ReceiveDamage()
         {
+            if (_currentLife <= 0) return;
             if (_hasSpawnedRecently) return;
             if (_isShieldActive) return;
             _currentLife--;

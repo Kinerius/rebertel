@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,17 +8,14 @@ public class Dialog : MonoBehaviour
 {
     [SerializeField]
     GameObject TextBox;
-    
+
+    public event Action OnSentensesComplete;
 
     private List<Sprite> _sentences;
 
     private Image _image;
     private int contador=0;
-    
-    void Start()
-    {
-        _sentences = new List<Sprite>();
-    }
+
     private void checkSentence()
     {
         TextBox.SetActive(false);
@@ -31,7 +29,7 @@ public class Dialog : MonoBehaviour
     }
     public void setSentences(List<Sprite> sentences)
     {
-        this._sentences = sentences;
+        _sentences = new List<Sprite>(sentences);
         contador = 0;
         checkSentence();
     }
@@ -47,6 +45,7 @@ public class Dialog : MonoBehaviour
         {
             TextBox.SetActive(false);
             Time.timeScale = 1;
+            OnSentensesComplete?.Invoke();
         }
     }
 }
