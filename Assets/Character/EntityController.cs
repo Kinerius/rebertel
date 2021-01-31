@@ -105,6 +105,7 @@ namespace Character
 
         public void SetMovementDirection(Vector3 direction)
         {
+            _inputMovement.y = 0;
             _inputMovement = direction.normalized;
         }
 
@@ -307,8 +308,8 @@ namespace Character
 
             var finalSpeed = Time.deltaTime * movementSpeed * _inputMovement;
             _lastMoveDirection = _inputMovement;
-            var collisions = characterController.Move(finalSpeed);
-            if (collisions != CollisionFlags.None)
+            var collisions = characterController.Move(finalSpeed + Vector3.down * Time.deltaTime);
+            if (collisions != CollisionFlags.None && (collisions & CollisionFlags.Below) == 0)
                 OnCollidedWithSomething?.Invoke();
         }
 
@@ -346,10 +347,15 @@ namespace Character
 
         public void ReceiveDamage()
         {
+            
             if (_currentLife <= 0) return;
             if (_hasSpawnedRecently) return;
             if (_isShieldActive) return;
             _currentLife--;
+            if (isBoss)
+            {
+                Debug.Log($"boss hit {_currentLife}");
+            }
             OnHealthChanged(life, _currentLife);
             if (_currentLife <= 0) Death();
         }

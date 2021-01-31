@@ -40,6 +40,10 @@ PrefabInstance:
       propertyPath: bulletsPerSecond
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3434961802536407843, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
+      propertyPath: isBlasterUpgraded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3434961802536407844, guid: a7edb81bcd4219d42809bd53f30bd877, type: 3}
       propertyPath: m_RootOrder
       value: 0

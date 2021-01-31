@@ -45,6 +45,7 @@ public class Dialog : MonoBehaviour
         {
             TextBox.SetActive(false);
             Time.timeScale = 1;
+            _sentences.Clear();
             OnSentensesComplete?.Invoke();
         }
     }

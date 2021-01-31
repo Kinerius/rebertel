@@ -21,7 +21,7 @@ namespace Levels
         [SerializeField] public List<Sprite> sentences;
         
         [SerializeField] GameObject item;
-
+        public bool isFinalLevel = false;
         private EntityController _player;
         private List<Wave> _waves;
         private int enemyCount;
@@ -48,12 +48,17 @@ namespace Levels
                         
             _player.OnNextLevelPortalEntered += OnNextLevelPortalEntered;
             _player.OnNextLevelPortalExited += OnNextLevelPortalExited;
+            if (sentences.Count > 0)
+            {
+                _dialogController = GameObject.Find("DialogController").GetComponent<Dialog>();;
+                _dialogController.setSentences(sentences);
+                _dialogController.OnSentensesComplete += StartSpawningWaves;
+            }
+            else
+            {
+                SetupWaves();
+            }
             
-            _dialogController = GameObject.Find("DialogController").GetComponent<Dialog>();;
-            
-            _dialogController.setSentences(sentences);
-            _dialogController.OnSentensesComplete += StartSpawningWaves;
-            SetupWaves();
         }
 
         private void StartSpawningWaves()
@@ -112,13 +117,16 @@ namespace Levels
             {
                 var wave = new Wave(waveData);
                 _waves.Add(wave);
+                enemyCount += waveData.count;
             }
+
+            if (isFinalLevel) enemyCount++;
+            
+            Debug.Log(enemyCount);
         }
 
         private void OnWaveSpawn(WaveData waveData)
         {
-            enemyCount += waveData.count;
-            
             for (int i = 0; i < waveData.count; i++)
             {
                 Observable.Timer(TimeSpan.FromSeconds(i * Random.Range(waveData.timeForEachSpawn, waveData.timeForEachSpawn+0.5f )))
@@ -144,6 +152,7 @@ namespace Levels
         private void OnEnemyDestroyed()
         {
             enemyCount--;
+
             if (enemyCount == 0)
             {
                 nextLevelPortal.gameObject.SetActive(true);

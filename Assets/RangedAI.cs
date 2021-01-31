@@ -37,7 +37,6 @@ namespace Character
             if (x == 0 && z == 0)
                 x = 1;
             var randomPoint = new Vector3(x, 0, z);
-            Debug.Log(randomPoint.normalized);
             entityTarget.SetMovementDirection(randomPoint.normalized);
             _movingTimer = 2;
         }
